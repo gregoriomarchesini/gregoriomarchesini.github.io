@@ -9,9 +9,7 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h5>{{ photo.name }}</h5>
-    <p><a href="{{ photo.spotyfyurl }}">suggested soundtrack: {{ photo.soundtrack }}</p>
-    <p>author: {{ person.author }}</p>
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
+    <p><a href="{{ photo.spotyfyurl }}">suggested soundtrack: {{ photo.soundtrack }}</a></p>
   </div>
   <div class="col-md-6">
     <img src="{{ site.github.url }}/{{ photo.image }}" alt="Contact" width="100%">
