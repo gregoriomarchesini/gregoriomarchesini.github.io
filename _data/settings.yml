@@ -28,7 +28,7 @@ gallery:
 - {name: 'Binary Love',image: 'assets/img/photo8.jpg',soundtrack: 'Scars to your Beautiful',author: 'Alessia Cara',spotifyurl: 'https://open.spotify.com/track/42ydLwx4i5V49RXHOozJZq?si=d1acf67ab3db45c0' }
 - {name: 'Iron Man revisited',image: 'assets/img/photo9.jpg',soundtrack: 'Shoot to thrill',author: 'AC/DC',spotifyurl: 'https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv?si=dc6a8ce03c474b35' }
 - {name: 'You Make me wonna be a better man',image: 'assets/img/photo10.jpg',soundtrack: 'Dog''s Days are over',author: 'Florence + Machine Head',spotifyurl: 'https://open.spotify.com/track/456WNXWhDwYOSf5SpTuqxd?si=6fad98a0ca8c4a32'}
-- {name: 'l'altelier des étolies',image: 'assets/img/photo11.webp',soundtrack: 'Don't let me be misunderstood',author: 'Nina Simone',spotifyurl: 'https://open.spotify.com/track/7M9pPyt8Gr41THLhbz4NSB?si=7c230d26996b48f0'}
+- {name: 'l'altelier des étolies',image: 'assets/img/photo11.webp',soundtrack: 'Don''t let me be misunderstood',author: 'Nina Simone',spotifyurl: 'https://open.spotify.com/track/7M9pPyt8Gr41THLhbz4NSB?si=7c230d26996b48f0'}
 - {name: 'Tiger',image: 'assets/img/photo12.jpg',soundtrack: 'Eye of the tiger',author: 'Survivor',spotifyurl: 'https://open.spotify.com/track/7M9pPyt8Gr41THLhbz4NSB?si=7c230d26996b48f0'}
 - {name: 'Waiting for the sun to set',image: 'assets/img/photo13.jpg',soundtrack: 'He''s fine',author: 'The secret sisters',spotifyurl: 'https://open.spotify.com/track/34iHUnhp0sZXdnpQLP43PI?si=ec6ad6e0ac364915'}
 - {name: 'Party in a Vintage shop',image: 'assets/img/photo14.jpg',soundtrack: 'They don''t know you like you do',author: 'Imagine Dragons',spotifyurl: 'https://open.spotify.com/track/7KGwRAF99Ryell3B2T4DKy?si=b699ab007c984d8e'}
