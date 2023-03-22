@@ -18,18 +18,18 @@ courses:
 
 
 gallery:
-- {name: 'image1',image: 'assets/img/image1'}
-- {name: 'image2',image: 'assets/img/image2'}
-- {name: 'image3',image: 'assets/img/image3'}
-- {name: 'image4',image: 'assets/img/image4'}
-- {name: 'image5',image: 'assets/img/image5'}
-- {name: 'image6',image: 'assets/img/image6'}
-- {name: 'image7',image: 'assets/img/image7'}
-- {name: 'image8',image: 'assets/img/image8'}
-- {name: 'image9',image: 'assets/img/image9'}
-- {name: 'image10',image: 'assets/img/image10'}
-- {name: 'image11',image: 'assets/img/image11'}
-- {name: 'image12',image: 'assets/img/image12'}
+- {name: 'image1',image: 'assets/img/photo1.jpg'}
+- {name: 'image2',image: 'assets/img/photo2.jpg'}
+- {name: 'image3',image: 'assets/img/photo3.jpg'}
+- {name: 'image4',image: 'assets/img/photo4.jpg'}
+- {name: 'image5',image: 'assets/img/photo5.jpg'}
+- {name: 'image6',image: 'assets/img/photo6.jpg'}
+- {name: 'image7',image: 'assets/img/photo7.jpg'}
+- {name: 'image8',image: 'assets/img/photo8.jpg'}
+- {name: 'image9',image: 'assets/img/photo9.jpg'}
+- {name: 'image10',image: 'assets/img/photo10.jpg'}
+- {name: 'image11',image: 'assets/img/photo11.webp'}
+- {name: 'image12',image: 'assets/img/photo12.jpg'}
 
 
 social:
