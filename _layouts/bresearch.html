@@ -7,7 +7,7 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5">Art Gallery</h3>
 {% for photo in site.data.settings.gallery %}
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
+  <div class="col-md-6 text-end social-media-icons">
     <h5>{{ photo.name }}</h5>
     <p><i class="fab fa-spotify"></i>suggested soundtrack:<a href="{{ photo.spotifyurl }}">{{ photo.soundtrack }}-{{ photo.author }}</a></p>
   </div>
