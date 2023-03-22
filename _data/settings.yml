@@ -18,25 +18,26 @@ courses:
 
 
 gallery:
-- {name: 'image1',image: 'assets/img/photo1.jpg'}
-- {name: 'image2',image: 'assets/img/photo2.jpg'}
-- {name: 'image3',image: 'assets/img/photo3.jpg'}
-- {name: 'image4',image: 'assets/img/photo4.jpg'}
-- {name: 'image5',image: 'assets/img/photo5.jpg'}
-- {name: 'image6',image: 'assets/img/photo6.jpg'}
-- {name: 'image7',image: 'assets/img/photo7.jpg'}
-- {name: 'image8',image: 'assets/img/photo8.jpg'}
-- {name: 'image9',image: 'assets/img/photo9.jpg'}
-- {name: 'image10',image: 'assets/img/photo10.jpg'}
-- {name: 'image11',image: 'assets/img/photo11.webp'}
-- {name: 'image12',image: 'assets/img/photo12.jpg'}
+- {name: 'image1',image: 'assets/img/photo1.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image2',image: 'assets/img/photo2.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image3',image: 'assets/img/photo3.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image4',image: 'assets/img/photo4.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image5',image: 'assets/img/photo5.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image6',image: 'assets/img/photo6.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image7',image: 'assets/img/photo7.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image8',image: 'assets/img/photo8.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image9',image: 'assets/img/photo9.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'image10',image: 'assets/img/photo10.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
+- {name: 'image11',image: 'assets/img/photo11.webp',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
+- {name: 'image12',image: 'assets/img/photo12.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/gregoriomarchesini'}
+- {icon: 'instagram', link: 'https://www.instagram.com/nowa.y98/?hl=it'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/gregoriomarchesini/'}
+- {icon: 'google', link: 'https://scholar.google.com/citations?user=XMflop0AAAAJ&hl=it&oi=ao'}
+
 
 contacts:
 - {name: 'Gregorio ', title: 'Ph.D Candidate', department: 'Decision and Control Systems', institution: 'KTH, Royal Institute of Technology', institution_address: 'Malvinas väg 10, 100 44 , Stockholm', phone: '(+39) 349 642 4427', email: 'gremar@kth.se', office: '', image: 'assets/img/kth_image.jpg'}
