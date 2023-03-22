@@ -23,9 +23,9 @@ layout: default
         <h4>Academic Experience</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
+        {% for section in site.data.cv.academic %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p><a href="{{ site.github.url }}/{{ section.url }}">{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
