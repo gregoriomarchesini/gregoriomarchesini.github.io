@@ -23,4 +23,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Gregorio ', title: 'Ph.D Candidate', department: 'Decision and Control Systems', institution: 'KTH, Royal Institute of Technology', institution_address: 'Malvinas väg 10, 100 44 , Stockholm', phone: '(+39) 349 642 4427', email: 'gremar@kth.se', office: '', image: 'assets/img/kth_image.jpg'}
