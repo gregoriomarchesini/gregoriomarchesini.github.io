@@ -31,13 +31,13 @@ gallery:
 - {name: 'image11',image: 'assets/img/photo11.webp',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image12',image: 'assets/img/photo12.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image13',image: 'assets/img/photo13.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image14',image: 'assets/img/photo14.webp',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
+- {name: 'image14',image: 'assets/img/photo14.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image15',image: 'assets/img/photo15.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image16',image: 'assets/img/photo16.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image17',image: 'assets/img/photo17.webp',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
+- {name: 'image17',image: 'assets/img/photo17.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image18',image: 'assets/img/photo18.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image19',image: 'assets/img/photo19.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image20',image: 'assets/img/photo20.webp',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
+- {name: 'image20',image: 'assets/img/photo20.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image21',image: 'assets/img/photo21.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
 - {name: 'image22',image: 'assets/img/photo22.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
 - {name: 'image23',image: 'assets/img/photo23.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
