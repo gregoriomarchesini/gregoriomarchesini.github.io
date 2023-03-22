@@ -4,17 +4,17 @@ layout: default
 
 {{ content }}
 
-<h3 class="fw-bold border-bottom pb-3 mb-5">People</h3>
-{% for person in site.data.settings.people %}
+<h3 class="fw-bold border-bottom pb-3 mb-5">Art Gallery</h3>
+{% for photo in site.data.settings.gallery %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h5>{{ person.name }}</h5>
-    <p>Email: {{ person.email }}</p>
+    <h5>{{ photo.name }}</h5>
+    <!-- <p>Email: {{ person.email }}</p>
     <p>Phone: {{ person.phone }}</p>
-    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p>
+    <p><a href="{{ site.github.url }}/people/{{ person.url }}">More info</a></p> -->
   </div>
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
+    <img src="{{ site.github.url }}/{{ photo.image }}" alt="Contact" width="100%">
   </div>
 </div>
 {% endfor %}

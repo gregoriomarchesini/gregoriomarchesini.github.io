@@ -16,6 +16,22 @@ courses:
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
+
+gallery:
+- {name: 'image1',image: 'assets/img/image1'}
+- {name: 'image2',image: 'assets/img/image2'}
+- {name: 'image3',image: 'assets/img/image3'}
+- {name: 'image4',image: 'assets/img/image4'}
+- {name: 'image5',image: 'assets/img/image5'}
+- {name: 'image6',image: 'assets/img/image6'}
+- {name: 'image7',image: 'assets/img/image7'}
+- {name: 'image8',image: 'assets/img/image8'}
+- {name: 'image9',image: 'assets/img/image9'}
+- {name: 'image10',image: 'assets/img/image10'}
+- {name: 'image11',image: 'assets/img/image11'}
+- {name: 'image12',image: 'assets/img/image12'}
+
+
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
