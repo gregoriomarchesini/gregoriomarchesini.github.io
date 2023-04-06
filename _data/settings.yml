@@ -32,17 +32,17 @@ gallery:
 - {name: 'Tiger',image: 'assets/img/photo12.jpg',soundtrack: 'Eye of the tiger',author: 'Survivor',spotifyurl: 'https://open.spotify.com/track/7M9pPyt8Gr41THLhbz4NSB?si=7c230d26996b48f0'}
 - {name: 'Waiting for the sun to set',image: 'assets/img/photo13.jpg',soundtrack: 'He''s fine',author: 'The secret sisters',spotifyurl: 'https://open.spotify.com/track/34iHUnhp0sZXdnpQLP43PI?si=ec6ad6e0ac364915'}
 - {name: 'Party in a Vintage shop',image: 'assets/img/photo14.jpg',soundtrack: 'They don''t know you like you do',author: 'Imagine Dragons',spotifyurl: 'https://open.spotify.com/track/7KGwRAF99Ryell3B2T4DKy?si=b699ab007c984d8e'}
-- {name: 'image15',image: 'assets/img/photo15.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image16',image: 'assets/img/photo16.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image17',image: 'assets/img/photo17.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image18',image: 'assets/img/photo18.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image19',image: 'assets/img/photo19.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image20',image: 'assets/img/photo20.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image21',image: 'assets/img/photo21.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: ''}
-- {name: 'image22',image: 'assets/img/photo22.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
-- {name: 'image23',image: 'assets/img/photo23.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
-- {name: 'image24',image: 'assets/img/photo24.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
-- {name: 'image25',image: 'assets/img/photo25.jpg',soundtrack: 'to do',author: 'to do',spotifyurl: '' }
+- {name: 'Trust',image: 'assets/img/photo15.jpg',soundtrack: 'Silence',author: 'Marshmellow',spotifyurl: 'https://open.spotify.com/track/7vGuf3Y35N4wmASOKLUVVU?si=45a650bc927249d8'}
+- {name: 'No Time to Love you',image: 'assets/img/photo16.jpg',soundtrack: 'Blur',author: 'Imagine Dragons',spotifyurl: 'https://open.spotify.com/track/5i6V88QD3nt9at4915JISY?si=2326d14883ab4400'}
+- {name: 'Warrior',image: 'assets/img/photo17.jpg',soundtrack: 'King Artur Orchestra Suit',author: 'Hans Zimmer',spotifyurl: 'https://open.spotify.com/track/3XFi3GHAUV4cqhvOrMvayj?si=b45ee1b089e2494d'}
+- {name: 'I.Q',image: 'assets/img/photo18.jpg',soundtrack: 'Revolution',author: 'Bishop',spotifyurl: 'https://open.spotify.com/track/6QGQghV8WhVOTNo9KbfNhd?si=8ee491f60bc842a9'}
+- {name: 'Katrine Stuart',image: 'assets/img/photo19.jpg',soundtrack: 'Valerie',author: 'Amy Winehouse',spotifyurl: 'https://open.spotify.com/track/6nLvaCZFR1wEzW3sIKpsnr?si=ce3a91f470da4fc4'}
+- {name: 'Untitled Portrait',image: 'assets/img/photo20.jpg',soundtrack: 'Love Yourslef',author: 'Justin Biber',spotifyurl: 'https://open.spotify.com/track/50kpGaPAhYJ3sGmk6vplg0?si=4ef18323848743b7'}
+- {name: 'Lone Surfer',image: 'assets/img/photo21.jpg',soundtrack: 'Trust my Lonely',author: 'Alessia Cara',spotifyurl: 'https://open.spotify.com/track/7eXT7U3FKrOM88xr1DsNwc?si=34a085b9803b4cff'}
+- {name: 'Colibri',image: 'assets/img/photo22.jpg',soundtrack: 'Home to you',author: 'Singrid',spotifyurl: 'https://open.spotify.com/track/0qBug5X3DaJv2zgXtp55wn?si=7332a73facf943bd' }
+- {name: 'Sketch of Brave Woman',image: 'assets/img/photo23.jpg',soundtrack: 'Firework',author: 'Katy Perry',spotifyurl: 'https://open.spotify.com/track/4lCv7b86sLynZbXhfScfm2?si=ba1b875a56fa4376' }
+- {name: 'Hyperdimensional Gymnast',image: 'assets/img/photo24.jpg',soundtrack: 'Ungrateful eyes',author: 'UNgreateful Eyes',spotifyurl: 'https://open.spotify.com/track/6p9vTtbwiVHMahR5UwNI7k?si=00294b3f52dc4865' }
+- {name: 'When smoking is more than a mere addiction',image: 'assets/img/photo25.jpg',soundtrack: 'Make it to me',author: 'Sam Smith',spotifyurl: 'https://open.spotify.com/track/2uCMaUojwuqr8CRGsLoPa6?si=b2e28c0998f54fbb' }
 
 
 
