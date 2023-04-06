@@ -1,7 +1,7 @@
 featured:
 - {name: 'Probing Ganymede''s atmosphere with HST Ly images in transit of Jupiter. Lorenz Roth, Gregorio Marchesini, Tracy M Becker, H Jens Hoeijmakers, Philippa M Molyneux, Kurt D Retherford, Joachim Saur, Shane R Carberry Mogan, Jamey R Szalay', url: '/publications/GyTransit.pdf'}
-- {name: Corridor MPC for Multi-Agent Inspection of Orbiting Structures, Gregorio Marchesini, Pedro Roque, Dimos V. Dimarogonas,urlpdf: '/publications/pdf/GyTransit.pdf',urlbib: "publications/bib/ganymedeRef"}
+- {name: Corridor MPC for Multi-Agent Inspection of Orbiting Structures, Gregorio Marchesini, Pedro Roque, Dimos V. Dimarogonas,urlpdf: '/publications/pdf/GyTransit.pdf',urlbib: "publications/bib/ganymedeRef.txt"}
 
 index:
 - {name: 'Probing Ganymede''s atmosphere with HST Ly images in transit of Jupiter. Lorenz Roth, Gregorio Marchesini, Tracy M Becker, H Jens Hoeijmakers, Philippa M Molyneux, Kurt D Retherford, Joachim Saur, Shane R Carberry Mogan, Jamey R Szalay', url: '/publications/GyTransit.pdf'}
-- {name: Corridor MPC for Multi-Agent Inspection of Orbiting Structures, Gregorio Marchesini, Pedro Roque, Dimos V. Dimarogonas,urlpdf: '/publications/pdf/CMPC_for_Space_Station.pdf',urlbib: "publications/bib/ganymedeRef"}
+- {name: Corridor MPC for Multi-Agent Inspection of Orbiting Structures, Gregorio Marchesini, Pedro Roque, Dimos V. Dimarogonas,urlpdf: '/publications/pdf/CMPC_for_Space_Station.pdf',urlbib: "publications/bib/ganymedeRef.txt"}
