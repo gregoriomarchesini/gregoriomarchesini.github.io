@@ -1,6 +1,7 @@
 <style>
   .button {
     border: none;
+    background-color: #0e100e;
     color: white;
     padding: 5px 5px;
     text-align: center;
@@ -9,11 +10,13 @@
     font-size: 8px;
     transition-duration: 0.4s;
     cursor: pointer;
+    border-radius: 8px;
   }
-
-  .button2:hover {
-    color: white;
+  .button:hover {
+    background-color: white;
+    color: black;
   }
+  
   
 </style>
 <div class="row g-5 mb-5">
@@ -22,8 +25,8 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-        <button class="button button1">Green</button>
-        <button class="button button2">Blue</button>
+        <button class="button button1"><a href="https://www.w3schools.com">pdf</a></button>
+        <button class="button button2"><a href="https://www.w3schools.com">bib</a></button>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
