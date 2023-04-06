@@ -25,8 +25,8 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-        <button class="button button1"><a href="https://www.w3schools.com">pdf</a></button>
-        <button class="button button2"><a href="https://www.w3schools.com">bib</a></button>
+        <button class="button"><a href="https://www.w3schools.com">pdf</a></button>
+        <button class="button"><a href="https://www.w3schools.com">bib</a></button>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
