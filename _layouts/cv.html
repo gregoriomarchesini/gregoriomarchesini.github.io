@@ -34,7 +34,7 @@ layout: default
         <h4>Work Experience</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.professional-experience %}
+        {% for section in site.data.cv.professional %}
           <p class="fw-bold">{{ section.title }}</p>
           <p><a href="{{ section.url }}">{{ section.description }}</a></p>
         {% endfor %}
