@@ -18,6 +18,8 @@ courses:
 
 
 gallery:
+- {name: 'When smoking is more than a mere addiction',image: 'assets/img/photo25.jpg',soundtrack: 'Make it to me',author: 'Sam Smith',spotifyurl: 'https://open.spotify.com/track/2uCMaUojwuqr8CRGsLoPa6?si=b2e28c0998f54fbb' }
+- {name: 'When smoking is more than a mere addiction',image: 'assets/img/photo25.jpg',soundtrack: 'Make it to me',author: 'Sam Smith',spotifyurl: 'https://open.spotify.com/track/2uCMaUojwuqr8CRGsLoPa6?si=b2e28c0998f54fbb' }
 - {name: 'Street sketch',image: 'assets/img/photo1.jpg',soundtrack: 'Clandestina',author: 'Emma Peterson',spotifyurl: 'https://open.spotify.com/track/2gRLsIZ7iYYbGVpIYK5idR?si=86b36bb6b03f4091' }
 - {name: 'Dialogue with a drunk man',image: 'assets/img/photo2.jpg',soundtrack: 'Corps',author: 'Yseult',spotifyurl: 'https://open.spotify.com/track/7qx03NsIL42jM03zFphnRO?si=0111e91490b04a45' }
 - {name: 'Girl with yellow eyes',image: 'assets/img/photo3.jpg',soundtrack: 'This is a Men''s,Men''s,Men''s World',author: 'James Brown',spotifyurl: 'https://open.spotify.com/track/5vMTfupz6z7wlNiz0xVb4j?si=9e3b8e0bffee45e0' }
@@ -41,8 +43,7 @@ gallery:
 - {name: 'Lone Surfer',image: 'assets/img/photo21.jpg',soundtrack: 'Trust my Lonely',author: 'Alessia Cara',spotifyurl: 'https://open.spotify.com/track/7eXT7U3FKrOM88xr1DsNwc?si=34a085b9803b4cff'}
 - {name: 'Colibri',image: 'assets/img/photo22.jpg',soundtrack: 'Home to you',author: 'Singrid',spotifyurl: 'https://open.spotify.com/track/0qBug5X3DaJv2zgXtp55wn?si=7332a73facf943bd' }
 - {name: 'Sketch of a Brave Young Woman',image: 'assets/img/photo23.jpg',soundtrack: 'Firework',author: 'Katy Perry',spotifyurl: 'https://open.spotify.com/track/4lCv7b86sLynZbXhfScfm2?si=ba1b875a56fa4376' }
-- {name: 'Hyperdimensional Gymnast',image: 'assets/img/photo24.jpg',soundtrack: 'Ungrateful eyes',author: 'UNgreateful Eyes',spotifyurl: 'https://open.spotify.com/track/6p9vTtbwiVHMahR5UwNI7k?si=00294b3f52dc4865' }
-- {name: 'When smoking is more than a mere addiction',image: 'assets/img/photo25.jpg',soundtrack: 'Make it to me',author: 'Sam Smith',spotifyurl: 'https://open.spotify.com/track/2uCMaUojwuqr8CRGsLoPa6?si=b2e28c0998f54fbb' }
+- {name: 'Hyperdimensional Gymnast',image: 'assets/img/photo24.jpg',soundtrack: 'Ungrateful eyes',author: 'Jon Bellion',spotifyurl: 'https://open.spotify.com/track/6p9vTtbwiVHMahR5UwNI7k?si=00294b3f52dc4865' }
 
 
 
