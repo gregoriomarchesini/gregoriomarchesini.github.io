@@ -7,7 +7,7 @@ I am a Ph.D student in the division of Decision and Control Systems ([DCS](https
 
 Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in formal methods for multiagent systems planning and control, graph theory, nonlinear control and robotics. During my Ph.D I will develop solutions for mutliagent planning and control under signal temporal logic tasks and sensing constraints. I am currently associated with the [SymAware](https://www.symaware.eu/) European project.
 
-In a world that is more and more pervaded by robotic systems, I wish to contribute in developing more relyable and risk aware autonomous systems with concrete application toward a more sustainable future. In coming years, I am motivated to apply my reserach to autonomous space systems where the need for safety critical control strategies is vital. 
+In a world that is more and more pervaded by robotic systems, I wish to contribute in developing more reliable and risk aware autonomous systems with concrete application toward a more sustainable future. In the coming years, I am motivated to apply my reserach to autonomous space systems where the need for safety critical control strategies is vital. 
 
 
 *"Look, talent comes everywhere, but having something to say and a way to say it to have people listen to it, that’s a whole other bag. And unless you get out and you try to do it, you’ll never know"*
