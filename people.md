@@ -2,4 +2,4 @@
 layout: people
 title: "People"
 ---
-Hello there this some mark down written by Greg
+Here is a list of the most influnetial people in my research and in my Ph.D journey
