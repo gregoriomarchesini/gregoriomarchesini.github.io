@@ -17,11 +17,6 @@
     color: black;
   }
   
-  a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
   
   a:hover {
     color: black;
@@ -37,7 +32,13 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p>{{ item.name }}</p>
-        <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf}}">pdf</a></button>
+        <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf}}";
+                                  color="white";
+                                  background-color="transparent";
+                                  text-decoration="none";
+                                  onmouseover = "this.style.color = 'black'";
+                                  onmouseover = "this.style.backgroundcolor = 'trasparent'";
+                                  onmouseover = "this.style.padding ='5px 5px'">pdf</a></button>
         <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib}}">bib</a></button>
       {% endfor %}
     {% else %}
