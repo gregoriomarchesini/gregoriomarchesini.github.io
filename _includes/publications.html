@@ -37,8 +37,8 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p>{{ item.name }}</p>
-        <button class="button"><a href="https://www.w3schools.com">pdf</a></button>
-        <button class="button"><a href="https://www.w3schools.com">bib</a></button>
+        <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf}}">pdf</a></button>
+        <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib}}">bib</a></button>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
