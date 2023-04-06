@@ -40,7 +40,7 @@ gallery:
 - {name: 'Untitled Portrait',image: 'assets/img/photo20.jpg',soundtrack: 'Love Yourslef',author: 'Justin Biber',spotifyurl: 'https://open.spotify.com/track/50kpGaPAhYJ3sGmk6vplg0?si=4ef18323848743b7'}
 - {name: 'Lone Surfer',image: 'assets/img/photo21.jpg',soundtrack: 'Trust my Lonely',author: 'Alessia Cara',spotifyurl: 'https://open.spotify.com/track/7eXT7U3FKrOM88xr1DsNwc?si=34a085b9803b4cff'}
 - {name: 'Colibri',image: 'assets/img/photo22.jpg',soundtrack: 'Home to you',author: 'Singrid',spotifyurl: 'https://open.spotify.com/track/0qBug5X3DaJv2zgXtp55wn?si=7332a73facf943bd' }
-- {name: 'Sketch of Brave Woman',image: 'assets/img/photo23.jpg',soundtrack: 'Firework',author: 'Katy Perry',spotifyurl: 'https://open.spotify.com/track/4lCv7b86sLynZbXhfScfm2?si=ba1b875a56fa4376' }
+- {name: 'Sketch of a Brave Young Woman',image: 'assets/img/photo23.jpg',soundtrack: 'Firework',author: 'Katy Perry',spotifyurl: 'https://open.spotify.com/track/4lCv7b86sLynZbXhfScfm2?si=ba1b875a56fa4376' }
 - {name: 'Hyperdimensional Gymnast',image: 'assets/img/photo24.jpg',soundtrack: 'Ungrateful eyes',author: 'UNgreateful Eyes',spotifyurl: 'https://open.spotify.com/track/6p9vTtbwiVHMahR5UwNI7k?si=00294b3f52dc4865' }
 - {name: 'When smoking is more than a mere addiction',image: 'assets/img/photo25.jpg',soundtrack: 'Make it to me',author: 'Sam Smith',spotifyurl: 'https://open.spotify.com/track/2uCMaUojwuqr8CRGsLoPa6?si=b2e28c0998f54fbb' }
 

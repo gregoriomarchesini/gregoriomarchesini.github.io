@@ -9,7 +9,9 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-6 text-center social-media-icons">
     <h5>{{ photo.name }}</h5>
-    <p><i class="fab fa-spotify"></i>suggested soundtrack:<a href="{{ photo.spotifyurl }}">{{ photo.soundtrack }}-{{ photo.author }}</a></p>
+    <p><i class="fab fa-spotify"></i>suggested soundtrack:</p>
+    <p><a href="{{ photo.spotifyurl }}">{{ photo.soundtrack }}</a></p>
+    <p>{{ photo.author }}</p>
   </div>
   <div class="col-md-6">
     <img src="{{ site.github.url }}/{{ photo.image }}" alt="Contact" width="100%">
