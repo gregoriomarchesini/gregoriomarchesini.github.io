@@ -41,33 +41,45 @@
   .publication h4 {
     margin-top: 0; /* Remove default margin */
   }
+
+  .publication-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .publication-container .col-md-6 {
+    width: 48%;
+  }
 </style>
 
 <div class="row g-5 mb-5">
   <div class="col-md-6"> <!-- Two columns -->
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <div class="publication">
-          <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
-          <div class="publication-info">
-            <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-            <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-            <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+    <div class="publication-container">
+      {% if page.title == "Home" %}
+        {% for item in site.data.publications.featured %}
+          <div class="publication">
+            <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
+            <div class="publication-info">
+              <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+              <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
+              <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+            </div>
           </div>
-        </div>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <div class="publication">
-          <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
-          <div class="publication-info">
-            <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-            <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-            <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+        {% endfor %}
+      {% else %}
+        {% for item in site.data.publications.index %}
+          <div class="publication">
+            <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
+            <div class="publication-info">
+              <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+              <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
+              <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+            </div>
           </div>
-        </div>
-      {% endfor %}
-    {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>
