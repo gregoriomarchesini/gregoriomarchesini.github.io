@@ -22,9 +22,24 @@
   }
 
   .publication {
-    width: 45%; /* Set width to 45% */
+    border-radius: 8px; /* Add rounded edges */
+    padding: 10px; /* Add padding */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
   }
+
+  .publication img {
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded edges */
+    object-fit: cover; /* Crop image to fit container */
+  }
+
   .publication-container {
+    background-color: gray; /* Set background color to gray */
+    color: darkgray; /* Set text color to dark gray */
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-gap: 20px; /* Add gap between publications */
@@ -41,6 +56,7 @@
             <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
             <div class="publication-info">
               <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+              <h5>{{ item.title }}</h5> <!-- Add the title of the publication -->
               <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
               <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
             </div>
@@ -52,6 +68,7 @@
             <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
             <div class="publication-info">
               <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+              <h5>{{ item.title }}</h5> <!-- Add the title of the publication -->
               <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
               <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
             </div>
