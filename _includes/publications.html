@@ -1,4 +1,3 @@
-
 <style>
   .button {
     background-color: azure;
@@ -24,34 +23,49 @@
 
   .publication {
     margin-bottom: 20px; /* Add margin between publications */
+    display: flex;
+    border: 1px solid lightgray; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    padding: 10px; /* Add padding */
   }
 
   .publication img {
     max-width: 100%; /* Make image responsive */
-    display: block;
-    margin-bottom: 10px; /* Add margin between image and publication title */
+    border-radius: 8px; /* Add border radius */
+  }
+
+  .publication-info {
+    margin-left: 10px; /* Add margin to separate image and title */
+  }
+
+  .publication h4 {
+    margin-top: 0; /* Remove default margin */
   }
 </style>
 
 <div class="row g-5 mb-5">
-  <div>
+  <div class="col-md-6"> <!-- Two columns -->
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <div class="publication">
           <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
-          <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-          <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-          <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+          <div class="publication-info">
+            <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+            <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
+            <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+          </div>
         </div>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
         <div class="publication">
           <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
-          <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-          <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-          <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+          <div class="publication-info">
+            <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
+            <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
+            <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
+          </div>
         </div>
       {% endfor %}
     {% endif %}
