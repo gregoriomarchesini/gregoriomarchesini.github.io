@@ -1,19 +1,13 @@
 <style>
   .button {
     background-color: azure;
-    border: none;
-    color: white;
-    padding: 10px 15px; /* Increase padding for bigger buttons */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 15px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px; /* Increase font size for bigger buttons */
-    transition-duration: 0.4s;
-    cursor: pointer;
+    font-size: 12px;
     border-radius: 8px;
-    border-color: black;
-    border-width: thin;
-    border-style: solid;
+    cursor: pointer;
   }
 
   .button:hover {
@@ -22,58 +16,48 @@
   }
 
   .publication {
-    border-radius: 8px; /* Add rounded edges */
-    padding: 10px; /* Add padding */
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    display: inline-block;
+    margin-right: 20px;
   }
 
-  .publication img {
-    width: 100%; /* Make image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Add rounded edges */
-    object-fit: cover; /* Crop image to fit container */
+  .publication h4, .publication h5 {
+    margin: 5px 0;
   }
 
   .publication-container {
-    background-color: gray; /* Set background color to gray */
-    color: darkgray; /* Set text color to dark gray */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 20px; /* Add gap between publications */
+    display: inline;
   }
 </style>
 
-<div class="row g-5 mb-5">
-  <div class="col-md-6"> <!-- Two columns -->
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    <div class="publication-container">
-      {% if page.title == "Home" %}
-        {% for item in site.data.publications.featured %}
-          <div class="publication">
-            <div class="publication-info">
-              <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-              <h5>{{ item.title }}</h5> <!-- Add the title of the publication -->
-              <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-              <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
-            </div>
-          </div>
-        {% endfor %}
-      {% else %}
-        {% for item in site.data.publications.index %}
-          <div class="publication">
-            <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
-            <div class="publication-info">
-              <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
-              <h5>{{ item.title }}</h5> <!-- Add the title of the publication -->
-              <button class="button"><a href="{{ site.github.url }}/{{ item.urlpdf }}">pdf</a></button>
-              <button class="button"><a href="{{ site.github.url }}/{{ item.urlbib }}">bib</a></button>
-            </div>
-          </div>
-        {% endfor %}
-      {% endif %}
-    </div>
+<div>
+  <h3>Publications</h3>
+  <div class="publication-container">
+    {% if page.title == "Home" %}
+      {% for item in site.data.publications.featured %}
+        <div class="publication">
+          <h4>{{ item.name }}</h4>
+          <h5>{{ item.title }}</h5>
+          <button class="button">
+            <a href="{{ site.github.url }}/{{ item.urlpdf }}" target="_blank">pdf</a>
+          </button>
+          <button class="button">
+            <a href="{{ site.github.url }}/{{ item.urlbib }}" target="_blank">bib</a>
+          </button>
+        </div>
+      {% endfor %}
+    {% else %}
+      {% for item in site.data.publications.index %}
+        <div class="publication">
+          <h4>{{ item.name }}</h4>
+          <h5>{{ item.title }}</h5>
+          <button class="button">
+            <a href="{{ site.github.url }}/{{ item.urlpdf }}" target="_blank">pdf</a>
+          </button>
+          <button class="button">
+            <a href="{{ site.github.url }}/{{ item.urlbib }}" target="_blank">bib</a>
+          </button>
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
