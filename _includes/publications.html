@@ -53,7 +53,6 @@
       {% if page.title == "Home" %}
         {% for item in site.data.publications.featured %}
           <div class="publication">
-            <img src="{{ site.github.url }}/{{ item.image }}" alt="Publication Image"> <!-- Add image -->
             <div class="publication-info">
               <h4>{{ item.name }}</h4> <!-- Change from <p> to <h4> for publication title -->
               <h5>{{ item.title }}</h5> <!-- Add the title of the publication -->
