@@ -3,13 +3,11 @@
     background-color: black;
     border: 1px solid gray;
     color: white !important;
-    padding: 10px 15px;
+    padding: 4px 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 8px;
     cursor: pointer;
-    width: 200px; /* Set button width */
-    height: 60px; /* Set button height */
   }
 
   .button:hover {
@@ -30,10 +28,6 @@
     display: inline;
   }
 
-  .button a:hover {
-    color: inherit; /* Make sure the link text follows the hover color */
-  }
-
   .button a {
     color: inherit; /* Ensure the link inherits the button's text color */
   }
@@ -42,7 +36,7 @@
 
 <div>
   <h3>Publications</h3>
-  <hr width="100%" size="2">
+  <hr width="100%" size="5" color="blue">
   <div class="publication-container">
     {% for item in site.data.publications %}
       <div class="publication">
