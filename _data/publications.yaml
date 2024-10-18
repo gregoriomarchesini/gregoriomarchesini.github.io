@@ -1,4 +1,26 @@
-- name: Lorenz Roth and Gregorio Marchesini and Tracy M Becker and H Jens Hoeijmakers
+- date: 2024
+  name: Gregorio Marchesini and Liu Siyuan and Lars Lindemann and Dimos V Dimarogonas
+  title: Decentralized Control of Multi-Agent Systems Under Acyclic Spatio-Temporal
+    Task Dependencies
+  urlbib: google_scholar_bibtex_link_Decentralized Control of Multi-Agent Systems
+    Under Acyclic Spatio-Temporal Task Dependencies
+  urlpdf: https://arxiv.org/abs/2409.05106
+- date: 2024
+  name: Gregorio Marchesini and Siyuan Liu and Lars Lindemann and Dimos V Dimarogonas
+  title: Communication-Constrained STL Task Decomposition through Convex Optimization
+  urlbib: google_scholar_bibtex_link_Communication-Constrained STL Task Decomposition
+    through Convex Optimization
+  urlpdf: https://arxiv.org/abs/2402.17585
+- date: 2024
+  name: Ernesto Casablanca and Zengjie Zhang and Gregorio Marchesini and Sofie Haesaert
+    and Dimos V Dimarogonas and Sadegh Soudjani
+  title: 'SymAware: A Software Development Framework for Trustworthy Multi-Agent Systems
+    with Situational Awareness'
+  urlbib: 'google_scholar_bibtex_link_SymAware: A Software Development Framework for
+    Trustworthy Multi-Agent Systems with Situational Awareness'
+  urlpdf: https://arxiv.org/abs/2409.14833
+- date: 2023
+  name: Lorenz Roth and Gregorio Marchesini and Tracy M Becker and H Jens Hoeijmakers
     and Philippa M Molyneux and Kurt D Retherford and Joachim Saur and Shane R Carberry
     Mogan and Jamey R Szalay
   title: "Probing Ganymede\u2019s atmosphere with HST Ly\u03B1 images in transit of\
@@ -6,30 +28,14 @@
   urlbib: "google_scholar_bibtex_link_Probing Ganymede\u2019s atmosphere with HST\
     \ Ly\u03B1 images in transit of Jupiter"
   urlpdf: https://iopscience.iop.org/article/10.3847/PSJ/acaf7f/meta
-- name: Gregorio Marchesini and Liu Siyuan and Lars Lindemann and Dimos V Dimarogonas
-  title: Decentralized Control of Multi-Agent Systems Under Acyclic Spatio-Temporal
-    Task Dependencies
-  urlbib: google_scholar_bibtex_link_Decentralized Control of Multi-Agent Systems
-    Under Acyclic Spatio-Temporal Task Dependencies
-  urlpdf: https://arxiv.org/abs/2409.05106
-- name: Gregorio Marchesini and Siyuan Liu and Lars Lindemann and Dimos V Dimarogonas
-  title: Communication-Constrained STL Task Decomposition through Convex Optimization
-  urlbib: google_scholar_bibtex_link_Communication-Constrained STL Task Decomposition
-    through Convex Optimization
-  urlpdf: https://arxiv.org/abs/2402.17585
-- name: Ernesto Casablanca and Zengjie Zhang and Gregorio Marchesini and Sofie Haesaert
-    and Dimos V Dimarogonas and Sadegh Soudjani
-  title: 'SymAware: A Software Development Framework for Trustworthy Multi-Agent Systems
-    with Situational Awareness'
-  urlbib: 'google_scholar_bibtex_link_SymAware: A Software Development Framework for
-    Trustworthy Multi-Agent Systems with Situational Awareness'
-  urlpdf: https://arxiv.org/abs/2409.14833
-- name: Gregorio Marchesini and Pedro Roque and Dimos V Dimarogonas
+- date: 2023
+  name: Gregorio Marchesini and Pedro Roque and Dimos V Dimarogonas
   title: Corridor MPC for Multi-Agent Inspection of Orbiting Structures
   urlbib: google_scholar_bibtex_link_Corridor MPC for Multi-Agent Inspection of Orbiting
     Structures
   urlpdf: https://ieeexplore.ieee.org/abstract/document/10383291/
-- name: Gregorio Marchesini
+- date: 2023
+  name: Gregorio Marchesini
   title: Application of Discrete Time High Order Control Barrier Functions for a prototype
     multi-spacecraft inspection of the ISS
   urlbib: google_scholar_bibtex_link_Application of Discrete Time High Order Control

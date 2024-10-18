@@ -1,5 +1,4 @@
 menu:
-- {name: 'publications', url: '/publications'}
 - {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
@@ -12,7 +11,7 @@ people:
 
 courses:
 - {name: 'Model Predictive Control', url: 'https://www.kth.se/student/kurser/kurs/EL2700?l=en'}
-- {name: 'Model Predictive Control', url: 'https://www.kth.se/student/kurser/kurs/EL1000'}
+- {name: 'Automatic Control, General Course', url: 'https://www.kth.se/student/kurser/kurs/EL1000'}
 
 
 gallery:
