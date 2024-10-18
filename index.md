@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-I am a Ph.D student in the division of Decision and Control Systems ([DCS](https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078)) at KTH Royal Institute of Techonolgy, Stockholm, Sweden. I am supervised by Prof Dimos V.Dimagoronas ([KTH](https://www.kth.se/en). Stockholm SW) and Prof. Lars Lindemann ([USC](https://www.usc.edu/), California US)
+I am a Ph.D student in the division of Decision and Control Systems ([DCS](https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078)) at KTH Royal Institute of Techonolgy, Stockholm, Sweden. I am supervised by Prof. Dimos V. Dimagoronas ([KTH](https://www.kth.se/en). Stockholm Seden) and Prof. Lars Lindemann ([USC](https://www.usc.edu/), California US)
 
 Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in formal methods for multiagent systems planning and control, graph theory, nonlinear control and robotics. During my Ph.D I will develop solutions for mutliagent planning and control under signal temporal logic tasks and sensing constraints. I am currently associated with the [SymAware](https://www.symaware.eu/) European project.
 
