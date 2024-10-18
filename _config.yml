@@ -5,3 +5,4 @@ description: "Ph.D  student"
 exclude:
   - .vscode/
   - .github/
+  - scripts/

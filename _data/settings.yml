@@ -11,9 +11,8 @@ people:
 - {name: 'Pedro Roque', title: 'Ph.D Student', department: 'Decision and Control Systems', institution: 'KTH Royal Institute Of Technology', url: 'https://pedroroque.dev/'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Model Predictive Control', url: 'https://www.kth.se/student/kurser/kurs/EL2700?l=en'}
+- {name: 'Model Predictive Control', url: 'https://www.kth.se/student/kurser/kurs/EL1000'}
 
 
 gallery:
