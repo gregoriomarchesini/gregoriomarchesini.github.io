@@ -2,7 +2,7 @@
   .button {
     background-color: black;
     border: 1px solid gray;
-    color: white;
+    color: white !important;
     padding: 10px 15px;
     text-align: center;
     font-size: 12px;
@@ -28,6 +28,10 @@
 
   .publication-container {
     display: inline;
+  }
+  
+  .button a:hover {
+    color: inherit; /* Make sure the link text follows the hover color */
   }
 </style>
 
