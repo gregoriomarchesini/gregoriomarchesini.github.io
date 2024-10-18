@@ -35,13 +35,13 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications %}
         <div class="publication">
-          <h4>{{ item.name }}</h4>
-          <h5>{{ item.title }}</h5>
+          <h4>{{ item.title }}</h4>
+          <h5>{{ item.names }}</h5>
           <button class="button">
-            <a href="{{ site.github.url }}/{{ item.urlpdf }}" target="_blank">pdf</a>
+            <a href="{{ item.urlpdf }}" target="_blank">pdf</a>
           </button>
           <button class="button">
-            <a href="{{ site.github.url }}/{{ item.urlbib }}" target="_blank">bib</a>
+            <a href="{{ item.urlbib }}" target="_blank">bib</a>
           </button>
         </div>
       {% endfor %}
