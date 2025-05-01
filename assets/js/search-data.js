@@ -451,8 +451,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-multi-agent-coordination-under-spatio-temporal-and-communication-constraints",
+          title: 'Multi-agent Coordination Under Spatio-Temporal And Communication Constraints',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
