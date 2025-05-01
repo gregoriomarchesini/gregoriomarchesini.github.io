@@ -4,4 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - stl_rrt_py
+  - gregoriomarchesini/stl_rrt_py
+  - gregoriomarchesini/multiagent-STL-symware
+  - gregoriomarchesini/neuromorphic_project
+
