@@ -4,11 +4,12 @@
     "label": "PhD Candidate In Decision and Control Systems Theory",
     "image": "",
     "email": "gremar@kth.se",
+    "url": "https://gregoriomarchesini.github.io",
     "summary": "I am a PhD candidate in Decision and Control Systems Theory at KTH Royal Institute of Technology, Stockholm, Sweden. My research interests include Optimization, Predictive Control, Multi-Agent Systems and Formal Methods.",
     "location": {
       "city": "Stockholm",
-      "countryCode": "US",
-      "region": "Sweden"
+      "countryCode": "Sweden",
+      "region": "Stockholm"
     },
     "profiles": [
       {
@@ -23,8 +24,8 @@
       "name": "C.I.R.I Aerospace, Forli, Italy",
       "position": "Internship",
       "url": "https://centri.unibo.it/aerospace/en",
-      "startDate": "February 2020",
-      "endDate": "June 2020",
+      "startDate": "2020-02",
+      "endDate": "2020-06",
       "summary": "The research project focused on the evaluation of the Wavelet Decomposition method as possible tool for recovering temporal doppler shift information for Deep Space communication operations.",
       "highlights": ["Deep Space Communication"]
     },
@@ -32,8 +33,8 @@
       "name": "KTH, Department of Space and Plasma Physics",
       "position": "Research Assistant",
       "url": "https://www.kth.se/ee/spp",
-      "startDate": "February 2022",
-      "endDate": "2023 January",
+      "startDate": "2022-02",
+      "endDate": "2023-01",
       "summary": "Analysis of the Lyman Alpha radiation features from the Jovian moon Ganymede, Neptune and Uranous. The analysis aimed at detecting possible radiation anomalies related to water plumes escaping from Ganymede. I worked under the supervision of professor Lorenz Roth.",
       "highlights": ["Space and Plasma Physics"]
     },
@@ -41,8 +42,8 @@
       "name": "MIST-MIniature Student saTellite",
       "position": "Attitude and Control System Engineer",
       "url": "https://mistsatellite.space/",
-      "startDate": "January 2021",
-      "endDate": "May 2021",
+      "startDate": "2021-01",
+      "endDate": "2021-05",
       "summary": "As AOCS engineer in the project, I analysed compared and implemented different calibration algorithms as possible solutions for the MIST's on-board magnetometer calibration.",
       "highlights": ["Relativity"]
     }
@@ -53,8 +54,8 @@
       "location": "Stockholm, Sweden",
       "position": "Social Media and Events Manager",
       "url": "https://euroavia.eu/",
-      "startDate": "January 2022",
-      "endDate": "January 2023",
+      "startDate": "2022-01",
+      "endDate": "2023-01",
       "summary": "Lead organizer of events, research project presentantions and social media management for Euroavia. The aim of Euroavia is grow a strong community of young researchers and leaders in the Aerospace Industry.",
       "highlights": ["Students associations"]
     }
@@ -66,7 +67,7 @@
       "url": "https://www.kth.se/",
       "area": "Decision and Control Systems",
       "studyType": "PhD",
-      "startDate": "2023-03-15",
+      "startDate": "2023-03",
       "endDate": "present",
       "courses": ["Formal Methods", "Game Theory", "Distributed Optimization","Multi-Agent Systems"]
     },
@@ -76,8 +77,8 @@
       "url": "https://www.kth.se/",
       "area": "Space Engineering",
       "studyType": "Master",
-      "startDate": "2020-08-25",
-      "endDate": "2023-01-15",
+      "startDate": "2020-08",
+      "endDate": "2023-01",
       "courses": ["Spacecraft Control", "Rigid Body Dynamics", "Astrodynamics", "Satellite Orbit Determination"]
     },
     {
@@ -86,8 +87,8 @@
       "url": "https://www.unibo.it/en",
       "area": "Master in Aerospace Engineering",
       "studyType": "Master",
-      "startDate": "2018-09-01",
-      "endDate": "2020-07-15",
+      "startDate": "2018-09",
+      "endDate": "2020-07",
       "courses": ["Mechanical Design","Aerodyamics", "Orbital Mechanics"]
     }
     
@@ -95,13 +96,13 @@
   "certificates": [
     {
       "name": "Modelling, Motion Planning and Control for Underactuated Mechanical Systems ",
-      "date": "2024-03",
+      "date": "2024",
       "issuer": "KTH",
       "icon": "fa-solid fa-tag"
     },
     {
       "name": "EECI Course : Formal Methods for Multi-Agent Feedback Control Systems  ",
-      "date": "2023-05",
+      "date": "2023",
       "issuer": "International Graduate School on Control",
       "url": "http://www.eeci-igsc.eu/",
       "icon": "fa-solid fa-tag"
