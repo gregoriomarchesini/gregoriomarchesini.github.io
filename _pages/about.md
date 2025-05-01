@@ -27,8 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+ I am a Ph.D student in the division of Decision and Control Systems (<a href="https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078">DCS</a>) at KTH Royal Institute of Techonolgy, Stockholm, Sweden. I am supervised by Prof. Dimos V. Dimagoronas (<a href="https://www.kth.se/en">KTH</a>. Stockholm Seden) and Prof. Lars Lindemann (<a href="https://www.usc.edu/">USC</a>, California US) 
+Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in formal methods for multiagent systems planning and control, 
+graph theory, nonlinear control and robotics. During my PhD I will develop solutions for multi-agent planning and control under signal temporal logic tasks 
+and sensing constraints. I am currently associated with the <a href="https://www.symaware.eu/">SymAware</a> European project. In a world that is more and more pervaded by robotic systems, 
+I wish to contribute in developing more reliable and risk-aware autonomous systems with concrete applications toward a more sustainable future. In the coming years, I am motivated to apply my research to autonomous space 
+systems where the need for safety-critical control strategies is vital.
+<br> <br> <br> <br> 
+... That you are here—that life exists and identity, <br>
+  That the powerful play goes on, and you may contribute a verse.<br><br>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+  - <em>Walt Whitman</em>
