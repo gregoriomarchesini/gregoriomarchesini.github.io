@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 3.9.0'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
@@ -23,6 +23,7 @@ group :jekyll_plugins do
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
+
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
@@ -36,3 +37,5 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+gem "github-pages", group: :jekyll_plugins
