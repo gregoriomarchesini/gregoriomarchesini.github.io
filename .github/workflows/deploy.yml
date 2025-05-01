@@ -93,6 +93,8 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
+          bundle config set force_ruby_platform true  # Ensures correct gem platform
+          bundle install
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
