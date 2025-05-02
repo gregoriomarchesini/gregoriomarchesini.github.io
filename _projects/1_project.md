@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-agent Coordination Under Spatio-Temporal And Communication Constraints
-description: with background image
+description: thesis project
 img: assets/img/12.jpg
 importance: 1
 category: thesis
