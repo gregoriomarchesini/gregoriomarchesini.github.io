@@ -9,10 +9,10 @@ profile:
   image: me.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>KTH </p>
+    <p>KTH, </p>
     <p>EECS</p>
     <p>Dep. of Intelligent Systems</p>
-    <p>Decision and Control Systems (DCS)</p>
+    <p>Decision and Control Systems</p>
     <p>Malvinas Väg 10, Floor 6</p>
     <p>SE-100 44 Stockholm, Sweden</p>
 
