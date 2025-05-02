@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: KTH Royal Intitute of Technonology
 
 profile:
   align: right
   image: me.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>KTH Royal Institute of Technology</p>
-    <p>School of Electrical Engineering and Computer Science (EECS)</p>
-    <p>Department of Intelligent Systems</p>
-    <p>Division of Decision and Control Systems (DDCS)</p>
+    <p>KTH </p>
+    <p>EECS</p>
+    <p>Dep. of Intelligent Systems</p>
+    <p>Decision and Control Systems (DCS)</p>
     <p>Malvinas Väg 10, Floor 6</p>
     <p>SE-100 44 Stockholm, Sweden</p>
 
