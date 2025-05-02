@@ -4,7 +4,7 @@ title: Multi-agent Coordination Under Spatio-Temporal And Communication Constrai
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: MSCThesis
+category: thesis
 related_publications: false
 ---
 
