@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
@@ -22,10 +22,6 @@ I highly recommend using these references as starting points for your projects !
   *Magnus Egerstedt, Panagiotis Antsaklis*  
   [Link](https://press.princeton.edu/books/hardcover/9780691140612/graph-theoretic-methods-in-multiagent-networks?srsltid=AfmBOoqAaLuEWuGZTXR9u9vA6N7RXade-hRyq--abgEI3q8A0WhsBhtH)
 
-
-- **Formal Methods for Discrete-Time Dynamical Systems**  
-  *Calin Belta, Boyan Yordanov, Ebru Aydin Gol*  
-  [Link](https://link.springer.com/book/10.1007/978-3-319-50763-7)
 
 ---
 
@@ -102,6 +98,11 @@ I highly recommend using these references as starting points for your projects !
 ---
 
 # Formal Methods and Temporal Logics
+---
+
+- **Formal Methods for Discrete-Time Dynamical Systems**  
+  *Calin Belta, Boyan Yordanov, Ebru Aydin Gol*  
+  [Link](https://link.springer.com/book/10.1007/978-3-319-50763-7)
 
 
 
