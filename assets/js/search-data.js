@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-git",
-          title: "Git",
+        },{id: "nav-coding",
+          title: "coding",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -440,16 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-was-recently-accepted-after-minor-revisions-at-transactions-of-automatic-control-tac",
+          title: 'Our latest publication “A Communication Consistent Approach to Signal Temporal Logic Task Decomposition...',
           description: "",
           section: "News",},{id: "projects-multi-agent-coordination-under-spatio-temporal-and-communication-constraints",
           title: 'Multi-agent Coordination Under Spatio-Temporal And Communication Constraints',
