@@ -67,7 +67,7 @@ ninja.data = [{
               },
             },{id: "post-tricks-for-faster-mpc-in-casadi",
         
-          title: "tricks for faster MPC in Casadi",
+          title: "Tricks for faster MPC in Casadi",
         
         description: "march &amp; april, looking forward to summer",
         section: "Posts",
