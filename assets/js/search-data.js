@@ -441,6 +441,16 @@ ninja.data = [{
           description: "thesis project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-exploring-multi-agent-planning",
+          title: 'Exploring multi-agent planning',
+          description: "thesis project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-orbital-stations-simulator-in-ros2",
+          title: 'Orbital Stations Simulator in ROS2',
+          description: "thesis project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
