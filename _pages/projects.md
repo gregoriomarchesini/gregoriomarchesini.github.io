@@ -5,7 +5,7 @@ permalink: /projects/
 description: Here is a collection of research projects I have the pleasure to pursue personally and with Master students I had the honour to supervise. If you are a student looking for research projects, feel free to scroll through past and new projects that might spark your interest! 🚀
 nav: true
 nav_order: 3
-display_categories: [thesis]
+display_categories: [thesis, explore]
 horizontal: false
 ---
 
