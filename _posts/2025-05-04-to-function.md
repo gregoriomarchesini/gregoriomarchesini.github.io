@@ -1,15 +1,16 @@
 ---
 layout: post
-title: opti.to_function for faster MPC 
-date: 2015-03-15 16:40:16
+title: tricks for faster MPC in Casadi
+date: 2025-05-04 16:40:16
 description: march & april, looking forward to summer
 tags: coding mpc
 categories: sample-posts
+giscus_comments: true
 ---
 
 # Running faster MPC
 
-When dealing with nonlinear Model Predicive Control (MPC), there is often a question on how to make the code faster.
+When dealing with nonlinear Model Predicive Control (MPC), there is often a question on how to make the code faster. I will consider the general purpose optimization library `casadi`.
 
 A few main key factors are essential to speed up your solution time.
 
