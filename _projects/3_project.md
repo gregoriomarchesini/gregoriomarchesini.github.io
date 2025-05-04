@@ -2,7 +2,7 @@
 layout: page
 title: Orbital Stations Simulator in ROS2
 description: thesis project
-img: /assets/img/ISS_gpt.png
+img: assets/img/ISS_gpt.png
 importance: 1
 category: open_projects
 related_publications: false

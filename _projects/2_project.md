@@ -2,7 +2,7 @@
 layout: page
 title: Exploring multi-agent planning
 description: thesis project
-img: /assets/img/gpt_drones.png
+img: assets/img/gpt_drones.png
 importance: 1
 category: open_projects
 related_publications: false
