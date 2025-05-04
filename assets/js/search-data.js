@@ -87,17 +87,6 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -113,12 +102,12 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-exploring-multi-agent-planning",
           title: 'Exploring multi-agent planning',
-          description: "thesis project",
+          description: "Open for application",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-orbital-stations-simulator-in-ros2",
           title: 'Orbital Stations Simulator in ROS2',
-          description: "thesis project",
+          description: "Open for application",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
