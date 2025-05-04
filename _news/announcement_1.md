@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-04-10  00:00:00-0400 # leave the time or this will break!
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our latest publication "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems" was recently accepted after minor revisions at *Transactions of Automatic Control* (TAC). 
+

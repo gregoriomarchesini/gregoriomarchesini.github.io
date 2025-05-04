@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: KTH Royal Intitute of Technonology
 
 profile:
   align: right
   image: me.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>KTH Royal Institute of Technology</p>
-    <p>School of Electrical Engineering and Computer Science (EECS)</p>
-    <p>Department of Intelligent Systems</p>
-    <p>Division of Decision and Control Systems (DDCS)</p>
+    <p>KTH, </p>
+    <p>EECS</p>
+    <p>Dep. of Intelligent Systems</p>
+    <p>Decision and Control Systems</p>
     <p>Malvinas Väg 10, Floor 6</p>
     <p>SE-100 44 Stockholm, Sweden</p>
 
@@ -31,13 +31,9 @@ latest_posts:
 ---
 
 
-I am a Ph.D student at the division of Decision and Control Systems (<a href="https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078">DCS</a>) at KTH Royal Institute of Techonolgy, Stockholm, Sweden. I am supervised by Prof. Dimos V. Dimagoronas (<a href="https://www.kth.se/en">KTH</a>. Stockholm Seden) and Prof. Lars Lindemann (<a href="https://www.usc.edu/">USC</a>, California US) 
+I am a Ph.D student at the division of Decision and Control Systems (<a href="https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078">DCS</a>) at **KTH Royal Institute of Techonolgy**, Stockholm, Sweden. I am supervised by Prof. [Dimos V. Dimarogonas](https://people.kth.se/~dimos/) (KTH) and Prof. [Lars Lindemann](https://viterbigradadmission.usc.edu/doctoral/faculty-research/profile/?lname=Lindemann&fname=Lars) (USC)
 
-Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in formal methods for multiagent systems planning and control, 
-graph theory, nonlinear control and robotics. During my PhD I will develop solutions for multi-agent planning and control under signal temporal logic tasks 
-and sensing constraints. I am currently associated with the <a href="https://www.symaware.eu/">SymAware</a> European project. In a world that is more and more pervaded by robotic systems, 
-I wish to contribute in developing more reliable and risk-aware autonomous systems with concrete applications toward a more sustainable future. In the coming years, I am motivated to apply my research to autonomous space 
-systems where the need for safety-critical control strategies is vital.
+Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in **formal methods** for **multi-agent** systems planning and control, **graph theory**, **predictive control** and **robotics**. During my PhD I will develop solutions for multi-agent planning and control under signal temporal logic tasks and sensing constraints. I am currently associated with the <a href="https://www.symaware.eu/">SymAware</a> European project. In a world that is more and more pervaded by robotic systems, I wish to contribute in developing more reliable and risk-aware autonomous systems with concrete applications toward a more sustainable future.
 
 
 

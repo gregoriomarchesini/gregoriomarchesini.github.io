@@ -1,81 +1,26 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Multi-agent Coordination Under Spatio-Temporal And Communication Constraints
+description: thesis project
+img: assets/img/publication_preview/drone_image_small_a.jpg
 importance: 1
-category: work
-related_publications: true
+category: thesis
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Master Student** : *Banjamin Bradin*
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Supervisor**     : *Gregorio Marchesini*
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Multi-robot systems are essential in applications such as search and rescue, warehouse automation, and autonomous transportation, where tasks exceed the capabilities of a single agent. The effective collaboration of agents is critical, particularly in environments with communication constraints such as limited bandwidth, intermittent connectivity, and physical obstacles. This thesis aims to develop a framework for multi-robot systems that operate under these communication limitations, focusing on distributed task assignment and coordination. The proposed approach utilizes Signal Temporal Logic and Control Barrier Functions within a Quadratic Programming control framework to facilitate the indirect collaboration of agents by decomposing complex tasks into smaller sub-tasks. The framework incorporates a decentralized controller that optimizes control inputs to satisfy Signal Temporal Logic tasks while adhering to Control Barrier Function constraints. Validation is achieved through simulations and real-world experiments conducted in the Smart Mobility Lab at KTH, demonstrating that agents can achieve complex Signal Temporal Logic tasks despite limited communication. The findings contribute to enhancing the reliability and effectiveness of multi-robot systems in environments where communication is restricted.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+The video shows a multi agent coordination problem, where a set of relay agents is helping pairs of non communicationg agnets acieve a relative formation in the absence of mutual communication.
+
+<div style="text-align: center;">
+  <iframe width="640" height="360" 
+          src="https://www.youtube.com/embed/joC_Xkk0ldY" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
