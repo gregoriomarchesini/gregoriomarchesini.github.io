@@ -1,6 +1,6 @@
 ---
 layout: post
-title: tricks for faster MPC in Casadi
+title: Tricks for faster MPC in Casadi
 date: 2025-05-04 16:40:16
 description: march & april, looking forward to summer
 tags: coding mpc
