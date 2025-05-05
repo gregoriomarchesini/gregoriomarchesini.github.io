@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Royal Intitute of Technology, Stockholm, Sweden :sweden:
+subtitle: Royal Intitute of Technology, Stockholm, Sweden
 
 profile:
   align: right
