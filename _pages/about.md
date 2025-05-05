@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: KTH Royal Intitute of Technonology
+subtitle: Royal Intitute of Technology, Stockholm, Sweden :sweden:
 
 profile:
   align: right
