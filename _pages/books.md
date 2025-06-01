@@ -1,8 +1,8 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: art gallery
 permalink: /books/
-nav: false
+nav: true
 collection: books
 ---
 
