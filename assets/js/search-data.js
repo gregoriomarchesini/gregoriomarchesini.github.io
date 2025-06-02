@@ -89,26 +89,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/jumping/";
+            },},{id: "books-stockholm",
+          title: 'Stockholm',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/medusa/";
             },},{id: "books-memories-in-the-wind",
           title: 'Memories in the wind',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/memories/";
+            },},{id: "books-when-the-party-is-over",
+          title: 'When the party is over',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/portrait/";
             },},{id: "books-don-39-t-look-back",
           title: 'Don&amp;#39;t look back',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/portrait_1/";
-            },},{id: "books-don-39-t-look-back",
-          title: 'Don&amp;#39;t look back',
+            },},{id: "books-when-the-party-is-over",
+          title: 'When the party is over',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/side_portrait/";
+            },},{id: "books-spiderman-and-gwen",
+          title: 'Spiderman and Gwen',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/spiderman/";
             },},{id: "books-stockholm",
           title: 'Stockholm',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/stockholm/";
+            },},{id: "books-smoking",
+          title: 'Smoking',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/timothy/";
             },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-is-under-review-at-transactions-of-automatic-control-tac",
           title: 'Our latest publication “A Communication Consistent Approach to Signal Temporal Logic Task Decomposition...',
           description: "",
