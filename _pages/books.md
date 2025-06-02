@@ -3,11 +3,11 @@ layout: book-shelf
 title: art gallery
 permalink: /books/
 nav: true
+nav_order: 7
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> In my free time I enjoy drawing with classic pencil and paper of simply pen. Since I am often too lazy to color the drawings, I let an AI tool to add the color on top.
+> Here you can find some of my sketches with an associated spotify link to the song that I wan listening the most while drawing.
 
-## Books that I am reading, have read, or will read
+
