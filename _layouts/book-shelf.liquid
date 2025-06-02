@@ -13,7 +13,7 @@ layout: page
             <h2>{{ item.title }}</h2>
             {% if item.spotify_song %}
               <a class="spotify-link" href="{{ item.spotify_song }}" target="_blank">
-                <img src="{{ '/assets/img/spotify_logo.svg' | relative_url }}" alt="Listen on Spotify" class="spotify-logo">
+                <i class="fab fa-spotify"></i>
                 <span>Listen on Spotify</span>
               </a>
             {% endif %}
