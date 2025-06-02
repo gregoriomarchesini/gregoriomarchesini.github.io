@@ -1,6 +1,6 @@
 ---
 layout: art
-title: Don't look back
+title: When the party is over
 image: assets/img/gallery/side_portrait.jpg
-spotify_song: https://open.spotify.com/track/7ppPZa3TRUSGKaks9wH7VT?si=14bee9bf43874370
+spotify_song: https://open.spotify.com/track/43zdsphuZLzwA9k4DJhU0I?si=e518885c5d3349dc
 ---
