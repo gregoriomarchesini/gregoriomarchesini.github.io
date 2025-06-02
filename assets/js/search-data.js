@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-art-gallery",
-          title: "art gallery",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -58,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-art-gallery",
+          title: "art gallery",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
         },{id: "post-tricks-for-faster-mpc-in-casadi",
         
           title: "Tricks for faster MPC in Casadi",
@@ -69,11 +69,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/to-function/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-moonlight-dream",
+          title: 'Moonlight Dream',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/bear/";
             },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-is-under-review-at-transactions-of-automatic-control-tac",
           title: 'Our latest publication “A Communication Consistent Approach to Signal Temporal Logic Task Decomposition...',
           description: "",
