@@ -1,6 +1,6 @@
 ---
 layout: art
-title: Moonlight Dream
-image: assets/img/gallery/download.jpeg
-spotify_song: https://open.spotify.com/track/7ICMhHYyv1vM3S1XzcEFIq?si=eb8b2db63c144e71
+title: The bear
+image: assets/img/gallery/BEAR.jpeg
+spotify_song: https://open.spotify.com/track/7FwBtcecmlpc1sLySPXeGE?si=6f16b770562b4e8a
 ---
