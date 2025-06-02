@@ -69,11 +69,46 @@ ninja.data = [{
             window.location.href = "/blog/2025/to-function/";
           
         },
-      },{id: "books-moonlight-dream",
-          title: 'Moonlight Dream',
+      },{id: "books-the-gymnast",
+          title: 'The gymnast',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/acrobat/";
+            },},{id: "books-the-bear",
+          title: 'The bear',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/bear/";
+            },},{id: "books-moonflower",
+          title: 'Moonflower',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/flower/";
+            },},{id: "books-jump",
+          title: 'Jump',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/jumping/";
+            },},{id: "books-memories-in-the-wind",
+          title: 'Memories in the wind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/memories/";
+            },},{id: "books-don-39-t-look-back",
+          title: 'Don&amp;#39;t look back',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/portrait_1/";
+            },},{id: "books-don-39-t-look-back",
+          title: 'Don&amp;#39;t look back',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/side_portrait/";
+            },},{id: "books-stockholm",
+          title: 'Stockholm',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/stockholm/";
             },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-is-under-review-at-transactions-of-automatic-control-tac",
           title: 'Our latest publication “A Communication Consistent Approach to Signal Temporal Logic Task Decomposition...',
           description: "",
