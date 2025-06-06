@@ -107,8 +107,17 @@ I highly recommend using these references as starting points for your projects !
 
 
 
+# Discrete Optimization
+---
 
+- **Submodular Function Maximization**
+  *A. Krause*
 
+- **Learning with submodular functions: A convex optimization perspective**
+  *F. Bach*
+
+- **The Design of Approximation Algorithms**
+  *D.P Williamson & D.B Shmoys*
 
 # Some interesting readings
 
