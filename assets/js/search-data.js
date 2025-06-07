@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-tricks-for-faster-mpc-in-casadi",
+        },{id: "post-movies-clips",
+        
+          title: "Movies Clips",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/movies-clips/";
+          
+        },
+      },{id: "post-tricks-for-faster-mpc-in-casadi",
         
           title: "Tricks for faster MPC in Casadi",
         
