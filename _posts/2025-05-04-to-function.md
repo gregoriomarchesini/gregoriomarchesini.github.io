@@ -5,7 +5,7 @@ date: 2025-05-04 16:40:16
 description: march & april, looking forward to summer
 tags: coding mpc
 categories: sample-posts
-giscus_comments: true
+giscus_comments: false
 ---
 
 # Running faster MPC

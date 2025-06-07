@@ -1,3 +1,14 @@
+---
+layout: post
+title: When acting is a legacy for future generations
+date: 2025-06-06 16:40:16
+description: looking forward to summer
+tags: quotes
+categories: sample-posts
+giscus_comments: false
+---
+
+
 # When acting is a legacy for future generations
 
 
