@@ -58,11 +58,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-movies-clips",
+        },{id: "post-when-acting-is-a-legacy-for-future-generations",
         
-          title: "Movies Clips",
+          title: "When acting is a legacy for future generations",
         
-        description: "",
+        description: "looking forward to summer",
         section: "Posts",
         handler: () => {
           
