@@ -9,8 +9,6 @@ giscus_comments: false
 ---
 
 
-# When acting is a legacy for future generations
-
 
 Among the actors that I love the most, there is one man that really changed my life in many aspects ... 
 
