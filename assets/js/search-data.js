@@ -140,8 +140,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/timothy/";
-            },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-is-under-review-at-transactions-of-automatic-control-tac",
+            },},{id: "news-our-latest-publication-a-communication-consistent-approach-to-signal-temporal-logic-task-decomposition-in-multi-agent-systems-is-now-available-you-can-have-a-look-here",
           title: 'Our latest publication “A Communication Consistent Approach to Signal Temporal Logic Task Decomposition...',
+          description: "",
+          section: "News",},{id: "news-our-latest-publication-sampling-based-planning-under-stl-specifications-a-forward-invariance-approach-is-now-available-you-can-have-a-look-here",
+          title: 'Our latest publication “Sampling-Based Planning Under STL Specifications: A Forward Invariance Approach” is...',
           description: "",
           section: "News",},{id: "projects-multi-agent-coordination-under-spatio-temporal-and-communication-constraints",
           title: 'Multi-agent Coordination Under Spatio-Temporal And Communication Constraints',
