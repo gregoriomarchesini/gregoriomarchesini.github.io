@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our latest publication "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems" is under review at *Transactions of Automatic Control* (TAC). 
+Our latest publication "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems" is now available. You can have a look [here](https://arxiv.org/abs/2410.12563) 
