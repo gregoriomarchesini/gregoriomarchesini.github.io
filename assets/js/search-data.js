@@ -161,6 +161,16 @@ ninja.data = [{
           description: "Open for application",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-a-differential-game-framework-for-multi-agent-coordination-under-signal-temporal-logic-specifications",
+          title: 'A Differential Game Framework for Multi-Agent Coordination under Signal Temporal Logic Specifications',
+          description: "thesis project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-optimal-control-for-enhanced-flight-performance-of-a-tilt-rotor-drone",
+          title: 'Optimal Control for Enhanced Flight Performance of a Tilt-Rotor Drone',
+          description: "thesis project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
