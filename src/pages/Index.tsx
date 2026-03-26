@@ -11,8 +11,7 @@ const fadeUp = {
     transition: { delay: i * 0.12, duration: 0.5, ease: "easeOut" as const },
   }),
 };
-  }),
-};
+
 
 const researchInterests = [
   "Machine Learning",
