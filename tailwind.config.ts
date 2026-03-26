@@ -9,10 +9,14 @@ export default {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1100px",
       },
     },
     extend: {
+      fontFamily: {
+        display: ["'Libre Baskerville'", "Georgia", "serif"],
+        body: ["'Source Sans 3'", "system-ui", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
