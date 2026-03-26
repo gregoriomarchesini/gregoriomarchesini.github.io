@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FileText, Video, ExternalLink } from "lucide-react";
+import { FileText, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
 
 const fadeUp = {
@@ -16,49 +16,41 @@ interface Paper {
   authors: string;
   venue: string;
   year: number;
-  pdfUrl?: string;
-  videoUrl?: string;
-  projectUrl?: string;
+  arxivUrl?: string;
+  doiUrl?: string;
+  previewImg?: string;
 }
 
 const papers: Paper[] = [
   {
-    title: "A Novel Approach to Visual Representation Learning",
-    authors: "Your Name, Collaborator A, Collaborator B",
-    venue: "CVPR 2026",
-    year: 2026,
-    pdfUrl: "#",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    projectUrl: "#",
-  },
-  {
-    title: "Efficient Transformers for Dense Prediction Tasks",
-    authors: "Your Name, Collaborator C",
-    venue: "NeurIPS 2025",
+    title: "Sampling-Based Planning Under STL Specifications: A Forward Invariance Approach",
+    authors: "Gregorio Marchesini, Siyuan Liu, Lars Lindemann, and Dimos V. Dimarogonas",
+    venue: "Preprint",
     year: 2025,
-    pdfUrl: "#",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    arxivUrl: "https://arxiv.org/abs/2506.10739",
+    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/ISS_inspection.png",
   },
   {
-    title: "Self-Supervised Learning with Limited Annotations",
-    authors: "Collaborator D, Your Name, Collaborator E",
-    venue: "ICCV 2025",
-    year: 2025,
-    pdfUrl: "#",
-  },
-  {
-    title: "Multimodal Reasoning in Open-World Environments",
-    authors: "Your Name, Collaborator F",
-    venue: "ICML 2024",
+    title: "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems",
+    authors: "G. Marchesini, S. Liu, L. Lindemann, and D.V. Dimarogonas",
+    venue: "Preprint",
     year: 2024,
-    pdfUrl: "#",
-    projectUrl: "#",
+    arxivUrl: "https://arxiv.org/abs/2410.12563",
+    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/drone_image_small_a.png",
+  },
+  {
+    title: "Decentralized Control of Multi-Agent Systems Under Acyclic Spatio-Temporal Task Dependencies",
+    authors: "G. Marchesini, S. Liu, L. Lindemann, and D.V. Dimarogonas",
+    venue: "CDC 2024",
+    year: 2024,
+    doiUrl: "https://doi.org/10.1109/CDC56724.2024.10885877",
+    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/treegraph.png",
   },
 ];
 
 const Publications = () => (
   <Layout>
-    <section className="container py-16 md:py-24 max-w-3xl">
+    <section className="container py-16 md:py-24 max-w-4xl">
       <motion.h1
         initial="hidden"
         animate="visible"
@@ -75,11 +67,11 @@ const Publications = () => (
         variants={fadeUp}
         className="text-muted-foreground font-body mb-12"
       >
-        Selected papers. See{" "}
-        <a href="https://scholar.google.com" target="_blank" rel="noreferrer" className="text-primary hover:underline">
+        See{" "}
+        <a href="https://scholar.google.com/citations?user=XMflop0AAAAJ" target="_blank" rel="noreferrer" className="text-primary hover:underline">
           Google Scholar
         </a>{" "}
-        for a full list.
+        for a complete list.
       </motion.p>
 
       <div className="space-y-10">
@@ -90,48 +82,39 @@ const Publications = () => (
             animate="visible"
             custom={i + 2}
             variants={fadeUp}
-            className="border-l-2 border-primary/30 pl-6 space-y-3"
+            className="grid md:grid-cols-[160px_1fr] gap-6 border-l-2 border-primary/30 pl-6"
           >
-            <div>
+            {paper.previewImg && (
+              <img
+                src={paper.previewImg}
+                alt={paper.title}
+                loading="lazy"
+                className="rounded-md border border-border w-full md:w-40 object-cover"
+              />
+            )}
+            <div className="space-y-2">
               <h2 className="text-lg font-bold leading-snug">{paper.title}</h2>
-              <p className="text-sm text-muted-foreground font-body mt-1">
+              <p className="text-sm text-muted-foreground font-body">
                 {paper.authors}
               </p>
               <p className="text-sm font-body">
                 <span className="font-semibold text-primary">{paper.venue}</span>
                 {" · "}{paper.year}
               </p>
-            </div>
 
-            <div className="flex flex-wrap gap-3 text-sm font-body">
-              {paper.pdfUrl && (
-                <a href={paper.pdfUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-primary hover:underline">
-                  <FileText size={14} /> PDF
-                </a>
-              )}
-              {paper.videoUrl && (
-                <span className="flex items-center gap-1.5 text-primary">
-                  <Video size={14} /> Video below
-                </span>
-              )}
-              {paper.projectUrl && (
-                <a href={paper.projectUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-primary hover:underline">
-                  <ExternalLink size={14} /> Project
-                </a>
-              )}
-            </div>
-
-            {paper.videoUrl && (
-              <div className="aspect-video rounded-lg overflow-hidden bg-card border border-border mt-2">
-                <iframe
-                  src={paper.videoUrl}
-                  title={`Video for ${paper.title}`}
-                  className="w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+              <div className="flex flex-wrap gap-3 text-sm font-body pt-1">
+                {paper.arxivUrl && (
+                  <a href={paper.arxivUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-primary hover:underline">
+                    <FileText size={14} /> arXiv
+                  </a>
+                )}
+                {paper.doiUrl && (
+                  <a href={paper.doiUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-primary hover:underline">
+                    <ExternalLink size={14} /> DOI
+                  </a>
+                )}
               </div>
-            )}
+            </div>
           </motion.article>
         ))}
       </div>
