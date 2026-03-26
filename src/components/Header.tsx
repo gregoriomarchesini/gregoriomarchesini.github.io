@@ -12,7 +12,7 @@ const Header = () => {
     <header className="border-b border-border">
       <div className="container flex items-center justify-between py-6">
         <Link to="/" className="font-display text-xl font-bold text-foreground hover:text-primary transition-colors">
-          Your Name
+          Gregorio Marchesini
         </Link>
         <nav className="flex gap-8">
           {navItems.map((item) => (
