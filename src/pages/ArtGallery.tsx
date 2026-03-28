@@ -4,7 +4,7 @@ import { Music, X } from "lucide-react";
 import Layout from "@/components/Layout";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
-const BASE = "https://raw.githubusercontent.com/gregoriomarchesini/gregoriomarchesini.github.io/main/assets/img/gallery";
+const BASE = "/assets/img/gallery";
 
 const artworks = [
   { title: "The gymnast", image: `${BASE}/acrobat.jpg`, spotify: "https://open.spotify.com/track/0xGSeBsG4V8Scc5YqpZQ66" },
