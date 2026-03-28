@@ -24,33 +24,33 @@ const projects: Project[] = [
     title: "Multi-agent Coordination Under Spatio-Temporal And Communication Constraints",
     category: "thesis",
     img: "/assets/img/publication_preview/drone_image_small_a.png",
-    url: "https://gregoriomarchesini.github.io/projects/1_project/",
+    url: "/projects/1_project/",
   },
   {
     title: "A Differential Game Framework for Multi-Agent Coordination under Signal Temporal Logic Specifications",
     category: "thesis",
     img: "/assets/img/enrico_image.png",
-    url: "https://gregoriomarchesini.github.io/projects/4_project/",
+    url: "/projects/4_project/",
   },
   {
     title: "Optimal Control for Enhanced Flight Performance of a Tilt-Rotor Drone",
     category: "thesis",
     img: "/assets/img/drone_with_tree.png",
-    url: "https://gregoriomarchesini.github.io/projects/5_project/",
+    url: "/projects/5_project/",
   },
   {
     title: "Exploring multi-agent planning",
     category: "explore",
     status: "Open for application",
     img: "/assets/img/gpt_drones.png",
-    url: "https://gregoriomarchesini.github.io/projects/2_project/",
+    url: "/projects/2_project/",
   },
   {
     title: "Orbital Stations Simulator in ROS2",
     category: "explore",
     status: "Open for application",
     img: "/assets/img/ISS_gpt.png",
-    url: "https://gregoriomarchesini.github.io/projects/3_project/",
+    url: "/projects/3_project/",
   },
 ];
 
