@@ -45,7 +45,7 @@ const Index = () => (
           variants={fadeUp}
         >
           <img
-            src="https://gregoriomarchesini.github.io/assets/img/me.JPG"
+            src="/assets/img/me.JPG"
             alt="Gregorio Marchesini"
             width={512}
             height={640}

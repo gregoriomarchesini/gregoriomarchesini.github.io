@@ -28,7 +28,7 @@ const papers: Paper[] = [
     venue: "Preprint",
     year: 2025,
     arxivUrl: "https://arxiv.org/abs/2506.10739",
-    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/ISS_inspection.png",
+    previewImg: "/assets/img/publication_preview/ISS_inspection.png",
   },
   {
     title: "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems",
@@ -36,7 +36,7 @@ const papers: Paper[] = [
     venue: "Preprint",
     year: 2024,
     arxivUrl: "https://arxiv.org/abs/2410.12563",
-    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/drone_image_small_a.png",
+    previewImg: "/assets/img/publication_preview/drone_image_small_a.png",
   },
   {
     title: "Decentralized Control of Multi-Agent Systems Under Acyclic Spatio-Temporal Task Dependencies",
@@ -44,7 +44,7 @@ const papers: Paper[] = [
     venue: "CDC 2024",
     year: 2024,
     doiUrl: "https://doi.org/10.1109/CDC56724.2024.10885877",
-    previewImg: "https://gregoriomarchesini.github.io/assets/img/publication_preview/treegraph.png",
+    previewImg: "/assets/img/publication_preview/treegraph.png",
   },
 ];
 
