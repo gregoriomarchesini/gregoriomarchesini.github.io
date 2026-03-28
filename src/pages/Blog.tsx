@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { posts } from "@/data/blogPosts";
 
@@ -31,8 +30,8 @@ const Blog = () => (
             custom={i + 2}
             variants={fadeUp}
           >
-            <Link
-              to={`/blog/${post.year}/${post.slug}`}
+            <a
+              href={`/blog/${post.year}/${post.slug}/`}
               className="block border-l-2 border-primary/30 pl-6 py-2 group hover:border-primary transition-colors"
             >
               <h2 className="text-lg font-bold group-hover:text-primary transition-colors">
@@ -48,7 +47,7 @@ const Blog = () => (
                   </span>
                 ))}
               </div>
-            </Link>
+            </a>
           </motion.div>
         ))}
       </div>
