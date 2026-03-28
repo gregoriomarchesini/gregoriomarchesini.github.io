@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
+import { posts } from "@/data/blogPosts";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -10,23 +11,6 @@ const fadeUp = {
     transition: { delay: i * 0.08, duration: 0.45, ease: "easeOut" as const },
   }),
 };
-
-const posts = [
-  {
-    title: "When acting is a legacy for future generations",
-    date: "June 06, 2025",
-    readTime: "3 min read",
-    tags: ["quotes"],
-    url: "https://gregoriomarchesini.github.io/blog/2025/movies-clips/",
-  },
-  {
-    title: "Tricks for faster MPC in Casadi",
-    date: "May 04, 2025",
-    readTime: "1 min read",
-    tags: ["coding", "mpc"],
-    url: "https://gregoriomarchesini.github.io/blog/2025/to-function/",
-  },
-];
 
 const Blog = () => (
   <Layout>
@@ -40,32 +24,32 @@ const Blog = () => (
 
       <div className="space-y-8">
         {posts.map((post, i) => (
-          <motion.a
+          <motion.div
             key={post.title}
-            href={post.url}
-            target="_blank"
-            rel="noreferrer"
             initial="hidden"
             animate="visible"
             custom={i + 2}
             variants={fadeUp}
-            className="block border-l-2 border-primary/30 pl-6 py-2 group hover:border-primary transition-colors"
           >
-            <h2 className="text-lg font-bold group-hover:text-primary transition-colors flex items-center gap-2">
-              {post.title}
-              <ExternalLink size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-            </h2>
-            <p className="text-sm text-muted-foreground font-body mt-1">
-              {post.date} · {post.readTime}
-            </p>
-            <div className="flex gap-2 mt-2">
-              {post.tags.map((tag) => (
-                <span key={tag} className="rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary font-body">
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </motion.a>
+            <Link
+              to={`/blog/${post.year}/${post.slug}`}
+              className="block border-l-2 border-primary/30 pl-6 py-2 group hover:border-primary transition-colors"
+            >
+              <h2 className="text-lg font-bold group-hover:text-primary transition-colors">
+                {post.title}
+              </h2>
+              <p className="text-sm text-muted-foreground font-body mt-1">
+                {post.date} · {post.readTime}
+              </p>
+              <div className="flex gap-2 mt-2">
+                {post.tags.map((tag) => (
+                  <span key={tag} className="rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary font-body">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </Link>
+          </motion.div>
         ))}
       </div>
     </section>
