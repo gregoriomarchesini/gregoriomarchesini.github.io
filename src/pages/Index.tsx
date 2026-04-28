@@ -89,7 +89,7 @@ const Index = () => (
               ) at <strong>KTH Royal Institute of Technology</strong>, Stockholm, Sweden.
               I am supervised by Prof.{" "}
               <a href="https://people.kth.se/~dimos/" target="_blank" rel="noreferrer" className="text-primary hover:underline">Dimos V. Dimarogonas</a> (KTH) and Prof.{" "}
-              <a href="https://viterbigradadmission.usc.edu/doctoral/faculty-research/profile/?lname=Lindemann&fname=Lars" target="_blank" rel="noreferrer" className="text-primary hover:underline">Lars Lindemann</a> (USC).
+              <a href="https://ee.ethz.ch/the-department/faculty/professors/person-detail.MzY4OTYz.TGlzdC80MTEsMTA1ODA0MjU5.html" target="_blank" rel="noreferrer" className="text-primary hover:underline">Lars Lindemann</a> (ETH).
             </p>
             <p className="mt-4 text-foreground/80 font-body leading-relaxed max-w-2xl">
               Mostly guided by a strong passion for mathematics and its application in robotics systems, my main research interests are in <strong>formal methods</strong> for <strong>multi-agent</strong> systems planning and control, <strong>graph theory</strong>, <strong>predictive control</strong> and <strong>robotics</strong>. During my PhD I will develop solutions for multi-agent planning and control under signal temporal logic tasks and sensing constraints. I am currently associated with the{" "}
