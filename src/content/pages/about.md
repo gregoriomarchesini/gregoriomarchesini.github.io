@@ -23,11 +23,14 @@ Mostly guided by a strong passion for mathematics and its application in robotic
 
 ## Research Interests
 
-|  |  |
-| --- | --- |
-| Formal Methods | Predictive Control |
-| Multi-Agent Systems | Robotics |
-| Graph Theory | Signal Temporal Logic |
+:::chips
+Formal Methods
+Multi-Agent Systems
+Graph Theory
+Predictive Control
+Robotics
+Signal Temporal Logic
+:::
 
 ## News
 

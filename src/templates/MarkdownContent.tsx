@@ -32,6 +32,8 @@ const MarkdownContent = ({ content, className = "" }: MarkdownContentProps) => {
         prose-tr:border-b prose-tr:border-border/70
         prose-hr:my-10
         prose-img:my-8 prose-img:w-full prose-img:rounded-lg
+        [&_.chip-grid]:my-6 [&_.chip-grid]:flex [&_.chip-grid]:flex-wrap [&_.chip-grid]:gap-3
+        [&_.chip]:inline-flex [&_.chip]:rounded-full [&_.chip]:bg-primary/10 [&_.chip]:px-4 [&_.chip]:py-2 [&_.chip]:text-sm [&_.chip]:font-medium [&_.chip]:text-primary
         dark:prose-invert ${className}`}
       dangerouslySetInnerHTML={{ __html: html }}
     />

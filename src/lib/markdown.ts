@@ -129,6 +129,8 @@ function isBlockBoundary(line: string): boolean {
     line.trim() === "" ||
     /^#{1,6}\s+/.test(line) ||
     /^```/.test(line) ||
+    /^:::\s*chips\s*$/.test(line.trim()) ||
+    /^:::\s*$/.test(line.trim()) ||
     /^>\s?/.test(line) ||
     isTableRow(line) ||
     isUnorderedList(line) ||
@@ -164,6 +166,26 @@ export function renderMarkdown(markdown: string): string {
     if (/^---+$/.test(trimmed)) {
       html.push("<hr />");
       index += 1;
+      continue;
+    }
+
+    if (/^:::\s*chips\s*$/.test(trimmed)) {
+      const items: string[] = [];
+      index += 1;
+
+      while (index < lines.length && !/^:::\s*$/.test(lines[index].trim())) {
+        const item = lines[index].trim();
+        if (item) items.push(item.replace(/^[-*]\s+/, "").trim());
+        index += 1;
+      }
+
+      if (index < lines.length) index += 1;
+
+      html.push(`
+        <div class="chip-grid">
+          ${items.map((item) => `<span class="chip">${renderInline(item)}</span>`).join("")}
+        </div>
+      `);
       continue;
     }
 
