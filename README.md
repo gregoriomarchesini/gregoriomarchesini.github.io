@@ -2,6 +2,41 @@
 
 Personal academic website for [Gregorio Marchesini](https://gregoriomarchesini.github.io), built with React, TypeScript, Vite, and Tailwind CSS.
 
+## Editing the site
+
+The site is now organized so that writing and layout live in different places:
+
+- `src/templates/` - reusable page templates
+- `src/content/pages/` - Markdown content for standalone pages such as the homepage/about page
+- `src/content/blog/` - Markdown blog posts
+- `src/content/projects/` - Markdown project pages
+- `src/pages/` - route components that connect content to templates
+- `public/assets/img/` - images used by the site
+
+### Normal editing workflow
+
+1. Edit Markdown in `src/content/...`
+2. Keep layout changes inside `src/templates/...` or `src/pages/...`
+3. Avoid editing generated files in `public/blog/...` and `public/projects/...`
+
+### Example
+
+If you want to update your bio, edit:
+
+- `src/content/pages/about.md`
+
+If you want to add or revise a blog post, edit:
+
+- `src/content/blog/<year>/<slug>.md`
+
+If you want to update a project page, edit:
+
+- `src/content/projects/<slug>.md`
+
+Blog posts and project pages are auto-discovered from those folders, so adding a new file there is the main step. You should only touch code if you want a new layout or a new content type.
+
+This way the meaningful text lives in Markdown, like a README, and the React app is only responsible for presentation.
+
 ## Local development
 
 ### Prerequisites

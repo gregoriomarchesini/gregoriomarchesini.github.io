@@ -8,6 +8,7 @@ import Publications from "./pages/Publications.tsx";
 import Blog from "./pages/Blog.tsx";
 import BlogPost from "./pages/BlogPost.tsx";
 import Projects from "./pages/Projects.tsx";
+import ProjectPost from "./pages/ProjectPost.tsx";
 import Coding from "./pages/Coding.tsx";
 import CV from "./pages/CV.tsx";
 import Teaching from "./pages/Teaching.tsx";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/blog/:year/:slug" element={<BlogPost />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:slug" element={<ProjectPost />} />
           <Route path="/coding" element={<Coding />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/teaching" element={<Teaching />} />

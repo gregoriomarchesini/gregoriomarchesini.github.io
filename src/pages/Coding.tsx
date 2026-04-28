@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 import Layout from "@/components/Layout";
+import { repos } from "@/content/siteContent";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -10,24 +11,6 @@ const fadeUp = {
     transition: { delay: i * 0.08, duration: 0.45, ease: "easeOut" as const },
   }),
 };
-
-const repos = [
-  {
-    name: "stl_rrt_py",
-    url: "https://github.com/gregoriomarchesini/stl_rrt_py",
-    description: "Sampling-based motion planning under Signal Temporal Logic specifications.",
-  },
-  {
-    name: "multiagent-STL-symware",
-    url: "https://github.com/gregoriomarchesini/multiagent-STL-symware",
-    description: "Multi-agent coordination under STL tasks using the SymAware framework.",
-  },
-  {
-    name: "neuromorphic_project",
-    url: "https://github.com/gregoriomarchesini/neuromorphic_project",
-    description: "Neuromorphic computing experiments and implementations.",
-  },
-];
 
 const Coding = () => (
   <Layout>

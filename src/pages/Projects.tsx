@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
+import { projects } from "@/content/collections";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -10,49 +12,6 @@ const fadeUp = {
     transition: { delay: i * 0.08, duration: 0.45, ease: "easeOut" as const },
   }),
 };
-
-interface Project {
-  title: string;
-  category: string;
-  status?: string;
-  img: string;
-  url: string;
-}
-
-const projects: Project[] = [
-  {
-    title: "Multi-agent Coordination Under Spatio-Temporal And Communication Constraints",
-    category: "thesis",
-    img: "/assets/img/publication_preview/drone_image_small_a.png",
-    url: "/projects/1_project/",
-  },
-  {
-    title: "A Differential Game Framework for Multi-Agent Coordination under Signal Temporal Logic Specifications",
-    category: "thesis",
-    img: "/assets/img/enrico_image.png",
-    url: "/projects/4_project/",
-  },
-  {
-    title: "Optimal Control for Enhanced Flight Performance of a Tilt-Rotor Drone",
-    category: "thesis",
-    img: "/assets/img/drone_with_tree.png",
-    url: "/projects/5_project/",
-  },
-  {
-    title: "Exploring multi-agent planning",
-    category: "explore",
-    status: "Open for application",
-    img: "/assets/img/gpt_drones.png",
-    url: "/projects/2_project/",
-  },
-  {
-    title: "Orbital Stations Simulator in ROS2",
-    category: "explore",
-    status: "Open for application",
-    img: "/assets/img/ISS_gpt.png",
-    url: "/projects/3_project/",
-  },
-];
 
 const Projects = () => (
   <Layout>
@@ -76,35 +35,34 @@ const Projects = () => (
             {projects
               .filter((p) => p.category === cat)
               .map((project, i) => (
-                <motion.a
+                <motion.div
                   key={project.title}
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
                   initial="hidden"
                   animate="visible"
                   custom={i + 2}
                   variants={fadeUp}
-                  className="group rounded-lg border border-border overflow-hidden hover:shadow-lg transition-shadow bg-card"
+                  className="group overflow-hidden rounded-lg border border-border bg-card transition-shadow hover:shadow-lg"
                 >
-                  <img
-                    src={project.img}
-                    alt={project.title}
-                    loading="lazy"
-                    className="w-full h-40 object-cover"
-                  />
-                  <div className="p-4">
-                    <h3 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors flex items-center gap-1.5">
-                      {project.title}
-                      <ExternalLink size={12} className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </h3>
-                    {project.status && (
-                      <span className="inline-block mt-2 rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary font-body">
-                        {project.status}
-                      </span>
-                    )}
-                  </div>
-                </motion.a>
+                  <Link to={`/projects/${project.slug}`}>
+                    <img
+                      src={project.img}
+                      alt={project.title}
+                      loading="lazy"
+                      className="h-40 w-full object-cover"
+                    />
+                    <div className="p-4">
+                      <h3 className="flex items-center gap-1.5 text-sm font-bold leading-snug transition-colors group-hover:text-primary">
+                        {project.title}
+                        <ExternalLink size={12} className="shrink-0 opacity-0 transition-opacity group-hover:opacity-100" />
+                      </h3>
+                      {project.status && (
+                        <span className="mt-2 inline-block rounded-full bg-primary/10 px-3 py-0.5 text-xs font-medium text-primary font-body">
+                          {project.status}
+                        </span>
+                      )}
+                    </div>
+                  </Link>
+                </motion.div>
               ))}
           </div>
         </div>

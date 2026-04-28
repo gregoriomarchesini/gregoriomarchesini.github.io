@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FileText, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
+import { papers } from "@/content/siteContent";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -10,43 +11,6 @@ const fadeUp = {
     transition: { delay: i * 0.08, duration: 0.45, ease: "easeOut" as const },
   }),
 };
-
-interface Paper {
-  title: string;
-  authors: string;
-  venue: string;
-  year: number;
-  arxivUrl?: string;
-  doiUrl?: string;
-  previewImg?: string;
-}
-
-const papers: Paper[] = [
-  {
-    title: "Sampling-Based Planning Under STL Specifications: A Forward Invariance Approach",
-    authors: "Gregorio Marchesini, Siyuan Liu, Lars Lindemann, and Dimos V. Dimarogonas",
-    venue: "Preprint",
-    year: 2025,
-    arxivUrl: "https://arxiv.org/abs/2506.10739",
-    previewImg: "/assets/img/publication_preview/ISS_inspection.png",
-  },
-  {
-    title: "A Communication Consistent Approach to Signal Temporal Logic Task Decomposition in Multi-Agent Systems",
-    authors: "G. Marchesini, S. Liu, L. Lindemann, and D.V. Dimarogonas",
-    venue: "Preprint",
-    year: 2024,
-    arxivUrl: "https://arxiv.org/abs/2410.12563",
-    previewImg: "/assets/img/publication_preview/drone_image_small_a.png",
-  },
-  {
-    title: "Decentralized Control of Multi-Agent Systems Under Acyclic Spatio-Temporal Task Dependencies",
-    authors: "G. Marchesini, S. Liu, L. Lindemann, and D.V. Dimarogonas",
-    venue: "CDC 2024",
-    year: 2024,
-    doiUrl: "https://doi.org/10.1109/CDC56724.2024.10885877",
-    previewImg: "/assets/img/publication_preview/treegraph.png",
-  },
-];
 
 const Publications = () => (
   <Layout>
