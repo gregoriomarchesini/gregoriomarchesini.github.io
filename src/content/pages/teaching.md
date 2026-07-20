@@ -1,3 +1,9 @@
+---
+title: Teaching
+---
+
+For students willing to pursue research projects with me, here you can find a list of articles and books that have shaped my education. I highly recommend using these references as starting points! 🥇
+
 ## Multi-Agent Systems And Nonlinear/Linear Control
 
 - title: Graph Theoretic Methods in Multiagent Networks
@@ -79,29 +85,35 @@
 - title: A Stroke of Genius: Striving for Greatness in All You Do
   authors: R. W. Hamming
 
-## Some Videos that Sticked With Me
+## Some videos that sticked with me ...
 
 - title: On approaching important problem, by your own definition
   authors: YouTube
   link: https://youtu.be/a1zDuOPkMSw
-  description: 
+  description: I belive this video has given me important idean on how to approach new problems. Your work, whatever this might be, must lead to something you belive it is important. If you don't think it is important, or likely to lead to anything important, then leave it. I do not agree with all the material, but the presentation is a masterpiece of educational content.  
 - title: Working hard is not enough
   authors: YouTube
   link: https://youtu.be/IlU-zDU6aQ0
-  description: 
+  description: In this productivity oriented world, I had to learn mysay that working hard is not the way to be successful, nor will give yo satisfaction in the end. In this sense, the very process of learning requires time, which is the only important ingredient to put in the story. 
 - title: On failure ...
   authors: YouTube
   link: https://youtu.be/JEFbfwg9dek
-  description: 
+  description: One of my fav actors giving a brilliant interpretation on what failure really means. 
 - title: A classic ...
   authors: YouTube
   link: https://youtu.be/UF8uR6Z6KLc
-  description: 
-- title: Nobel Price in Physics
+  description: I believe this speech does not need an introduction, but it is nonetheless a masterpiece of rhetoric from which you can take inspiration. 
+- title: Nobel Prize in Physics
   authors: YouTube
   link: https://youtu.be/btKFVApwh_4
-  description: 
+  description: I particularly like this talk, even more so after reading the book from Frank Wilczek and his interpretation of color and speed... Blue is fast and red is slow, all fitting in the same harmony. 
 - title: Difference between understanding and knowing
   authors: YouTube
   link: https://youtu.be/NM-zWTU7X-k
-  description: 
+  description: Understanding something and knowing something seemed to me to be the same, until Feynman proved me wrong. If you ever wonder what it means to be a good teacher, remember he was the greatest. No careful selection of PPT color palette, no mentimeter, iPad or computer. Just a deck of notes and a world of ideas put together brilliantly.   
+- title: The only weapon we have... is comedy
+  authors: YouTube
+  link: https://www.youtube.com/watch?v=FnrVk2InT3Y
+  description: We are only given a little spark of madness, and if you lose that, you are nothing. 
+  
+

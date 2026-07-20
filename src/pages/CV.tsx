@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, MapPin, GraduationCap, Briefcase, Award, Globe } from "lucide-react";
 import Layout from "@/components/Layout";
-import { cvContent } from "@/content/siteContent";
+import { cvPage as cvContent } from "@/content/collections";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -16,7 +16,7 @@ const CV = () => (
   <Layout>
     <section className="container py-16 md:py-24 max-w-3xl">
       <motion.div initial="hidden" animate="visible" custom={0} variants={fadeUp} className="mb-8">
-        <h1 className="text-4xl font-bold">Curriculum Vitae</h1>
+        <h1 className="text-4xl font-bold">{cvContent.title}</h1>
         <div className="flex flex-wrap gap-4 mt-3 text-sm font-body text-muted-foreground">
           <span className="flex items-center gap-1.5"><Mail size={14} className="text-primary" /> {cvContent.contact.email}</span>
           <span className="flex items-center gap-1.5"><MapPin size={14} className="text-primary" /> {cvContent.contact.location}</span>

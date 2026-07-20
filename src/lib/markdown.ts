@@ -79,7 +79,7 @@ function renderIframeEmbed(input: string): string {
   `;
 }
 
-function renderInline(markdown: string): string {
+export function renderInline(markdown: string): string {
   const codeTokens: string[] = [];
   let text = markdown.replace(/`([^`]+)`/g, (_, code: string) => {
     const token = `__CODE_TOKEN_${codeTokens.length}__`;
@@ -89,7 +89,11 @@ function renderInline(markdown: string): string {
 
   text = escapeHtml(text);
   text = text.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="rounded-lg border border-border" />');
-  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label: string, href: string) =>
+    /^https?:\/\//.test(href)
+      ? `<a href="${href}" target="_blank" rel="noreferrer">${label}</a>`
+      : `<a href="${href}">${label}</a>`,
+  );
   text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   text = text.replace(/(^|[^\*])\*([^*]+)\*/g, "$1<em>$2</em>");
 

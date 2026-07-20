@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import { FileText, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
-import { papers } from "@/content/siteContent";
+import { publicationsPage } from "@/content/collections";
+import InlineMarkdown from "@/templates/InlineMarkdown";
+
+const { title, intro, papers } = publicationsPage;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -22,7 +25,7 @@ const Publications = () => (
         variants={fadeUp}
         className="text-4xl font-bold mb-2"
       >
-        Publications
+        {title}
       </motion.h1>
       <motion.p
         initial="hidden"
@@ -31,11 +34,7 @@ const Publications = () => (
         variants={fadeUp}
         className="text-muted-foreground font-body mb-12"
       >
-        See{" "}
-        <a href="https://scholar.google.com/citations?user=XMflop0AAAAJ" target="_blank" rel="noreferrer" className="text-primary hover:underline">
-          Google Scholar
-        </a>{" "}
-        for a complete list.
+        <InlineMarkdown content={intro} />
       </motion.p>
 
       <div className="space-y-10">

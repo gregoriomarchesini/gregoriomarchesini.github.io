@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import { ExternalLink, BookOpen, Play } from "lucide-react";
 import Layout from "@/components/Layout";
-import { teachingSections } from "@/content/siteContent";
+import { teachingPage } from "@/content/collections";
+import InlineMarkdown from "@/templates/InlineMarkdown";
+
+const { title, intro, sections: teachingSections } = teachingPage;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -21,10 +24,10 @@ const Teaching = () => (
   <Layout>
     <section className="container py-16 md:py-24 max-w-3xl">
       <motion.h1 initial="hidden" animate="visible" custom={0} variants={fadeUp} className="text-4xl font-bold mb-3">
-        Teaching
+        {title}
       </motion.h1>
       <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="text-muted-foreground font-body mb-12 max-w-2xl leading-relaxed">
-        For students willing to pursue research projects with me, here you can find a list of articles and books that have shaped my education. I highly recommend using these references as starting points! 🥇
+        <InlineMarkdown content={intro} />
       </motion.p>
 
       <div className="space-y-10">

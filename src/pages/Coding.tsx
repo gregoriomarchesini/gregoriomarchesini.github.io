@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 import Layout from "@/components/Layout";
-import { repos } from "@/content/siteContent";
+import { codingPage } from "@/content/collections";
+
+const { title, githubUrl, repos } = codingPage;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -16,10 +18,10 @@ const Coding = () => (
   <Layout>
     <section className="container py-16 md:py-24 max-w-3xl">
       <motion.h1 initial="hidden" animate="visible" custom={0} variants={fadeUp} className="text-4xl font-bold mb-4">
-        Coding
+        {title}
       </motion.h1>
       <motion.a
-        href="https://github.com/gregoriomarchesini"
+        href={githubUrl}
         target="_blank"
         rel="noreferrer"
         initial="hidden"
@@ -28,7 +30,7 @@ const Coding = () => (
         variants={fadeUp}
         className="inline-flex items-center gap-2 text-primary hover:underline font-body text-sm mb-12"
       >
-        <Github size={16} /> github.com/gregoriomarchesini
+        <Github size={16} /> {githubUrl.replace(/^https?:\/\//, "")}
       </motion.a>
 
       <div className="space-y-6">
