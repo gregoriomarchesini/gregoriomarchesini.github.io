@@ -53,6 +53,7 @@ export interface Paper {
   year: number;
   arxivUrl?: string;
   doiUrl?: string;
+  url?: string;
   previewImg?: string;
 }
 
@@ -178,6 +179,7 @@ function parsePaper(item: RecordItem): Paper {
     year: Number(requiredField(item, "year")),
     arxivUrl: item.arxiv,
     doiUrl: item.doi,
+    url: item.url,
     previewImg: item.preview,
   };
 }
