@@ -6,6 +6,7 @@ image: /assets/img/me.JPG
 location: Malvinas Väg 10, Floor 6, SE-100 44 Stockholm
 githubUrl: https://github.com/gregoriomarchesini
 scholarUrl: https://scholar.google.com/citations?user=XMflop0AAAAJ
+linkedinUrl: https://www.linkedin.com/in/gregoriomarchesini/
 ---
 
 
@@ -20,6 +21,13 @@ Mostly guided by a strong passion for mathematics and its application in robotic
 > "... That you are here - that life exists and identity, That the powerful play goes on, and you may contribute a verse."
 >
 > - Walt Whitman
+
+## My Research in Videos
+
+:::videos
+- [Reactive redistribution of STL tasks under time-varying communication](https://youtu.be/qLjHKBQRmYw)
+- [Decomposition of STL formulas in multi-agent settings](https://youtu.be/joC_Xkk0ldY)
+:::
 
 ## Research Interests
 

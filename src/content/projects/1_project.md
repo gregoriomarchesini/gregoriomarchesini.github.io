@@ -6,7 +6,7 @@ slug: 1_project
 img: /assets/img/publication_preview/drone_image_small_a.png
 order: 1
 student: Benjamin Bradin
-supervisor: Gregorio Marchesini
+company: KTH Royal Institute of Technology
 ---
 
 Multi-robot systems are essential in applications such as search and rescue, warehouse automation, and autonomous transportation, where tasks exceed the capabilities of a single agent. Effective collaboration is critical, particularly in environments with communication constraints such as limited bandwidth, intermittent connectivity, and physical obstacles.

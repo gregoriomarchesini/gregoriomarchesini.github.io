@@ -6,7 +6,7 @@ slug: 4_project
 img: /assets/img/enrico_image.png
 order: 2
 student: Enrico Dozzi
-supervisor: Gregorio Marchesini
+company: KTH Royal Institute of Technology
 ---
 
 In an increasingly connected world, the growing deployment of networked autonomous agents has intensified the need for scalable methods to manage inter-agent coordination in shared environments.

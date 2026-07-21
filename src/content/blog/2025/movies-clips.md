@@ -24,7 +24,7 @@ While we are all told that our time on this planet is limited, only a handful of
 But the movie did not stop surprising me there. At a moment when I was also struggling to find meaning in performing well in school, in sport, and in trying to understand what to do next in life, this scene made me realize it was all about "contributing a verse" to this life in which we all play some role. For as little as it can be, we should strive to go where our passions lead us.
 
 
-[Watch the clip on YouTube](https://www.youtube.com/watch?v=Wey8nauEyA4I)
+[Watch the clip on YouTube](https://www.youtube.com/watch?v=Wey8nauEyA4)
 
 Only a couple of years after watching [Dead Poets Society](https://en.wikipedia.org/wiki/Dead_Poets_Society), another terrific movie crossed my watch list: [Good Will Hunting](https://en.wikipedia.org/wiki/Good_Will_Hunting). While the movie is a masterpiece from start to finish, I just want to share one of the epic moments in which Robin gives a wonderful speech that reminded me of the importance of living rather than merely reading about life.
 

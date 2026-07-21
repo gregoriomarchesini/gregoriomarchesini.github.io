@@ -32,6 +32,40 @@ function renderYouTubeEmbed(input: string): string {
   `;
 }
 
+/**
+ * Renders a `:::videos` fence as a responsive grid of inline players, two per
+ * row on `sm` and up. Opts out of `prose` so typography's figure margins don't
+ * fight the grid gap — caption styling is applied explicitly instead.
+ */
+function renderVideoGrid(items: { url: string; caption?: string }[]): string {
+  const cells = items
+    .map(({ url, caption }) => {
+      const videoId = escapeHtml(extractYoutubeId(url));
+      const title = caption ? escapeHtml(caption) : "YouTube video player";
+
+      return `
+        <figure class="m-0">
+          <div class="overflow-hidden rounded-lg border border-border">
+            <div class="aspect-video">
+              <iframe
+                class="h-full w-full"
+                src="https://www.youtube.com/embed/${videoId}"
+                title="${title}"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          ${caption ? `<figcaption class="mt-3 text-sm leading-6 text-muted-foreground">${renderInline(caption)}</figcaption>` : ""}
+        </figure>
+      `;
+    })
+    .join("");
+
+  return `<div class="not-prose my-8 grid gap-6 sm:grid-cols-2">${cells}</div>`;
+}
+
 function renderYouTubePreview(url: string, label?: string): string {
   const videoId = extractYoutubeId(url);
   const safeUrl = escapeHtml(url.trim());
@@ -133,7 +167,7 @@ function isBlockBoundary(line: string): boolean {
     line.trim() === "" ||
     /^#{1,6}\s+/.test(line) ||
     /^```/.test(line) ||
-    /^:::\s*chips\s*$/.test(line.trim()) ||
+    /^:::\s*(chips|videos)\s*$/.test(line.trim()) ||
     /^:::\s*$/.test(line.trim()) ||
     /^>\s?/.test(line) ||
     isTableRow(line) ||
@@ -190,6 +224,25 @@ export function renderMarkdown(markdown: string): string {
           ${items.map((item) => `<span class="chip">${renderInline(item)}</span>`).join("")}
         </div>
       `);
+      continue;
+    }
+
+    if (/^:::\s*videos\s*$/.test(trimmed)) {
+      const items: { url: string; caption?: string }[] = [];
+      index += 1;
+
+      while (index < lines.length && !/^:::\s*$/.test(lines[index].trim())) {
+        const item = lines[index].trim().replace(/^[-*]\s+/, "").trim();
+        if (item) {
+          const link = item.match(/^\[([^\]]*)\]\((.+)\)$/);
+          items.push(link ? { caption: link[1], url: link[2] } : { url: item });
+        }
+        index += 1;
+      }
+
+      if (index < lines.length) index += 1;
+
+      html.push(renderVideoGrid(items));
       continue;
     }
 

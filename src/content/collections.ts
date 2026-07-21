@@ -9,6 +9,7 @@ import {
 import aboutRaw from "./pages/about.md?raw";
 import codingRaw from "./pages/coding.md?raw";
 import cvRaw from "./pages/cv.md?raw";
+import projectsPageRaw from "./pages/projects.md?raw";
 import publicationsRaw from "./pages/publications.md?raw";
 import teachingRaw from "./pages/teaching.md?raw";
 
@@ -20,6 +21,8 @@ export interface AboutPage {
   location: string;
   githubUrl: string;
   scholarUrl: string;
+  /** Optional: the profile link renders only when about.md sets linkedinUrl. */
+  linkedinUrl?: string;
   content: string;
 }
 
@@ -42,7 +45,8 @@ export interface ProjectDocument {
   order: number;
   status?: string;
   student?: string;
-  supervisor?: string;
+  /** Organisation that hosted or supported the project. */
+  company?: string;
   content: string;
 }
 
@@ -53,6 +57,8 @@ export interface Paper {
   year: number;
   arxivUrl?: string;
   doiUrl?: string;
+  /** Direct IEEE Xplore link; takes the place of the DOI chip when present. */
+  ieeeUrl?: string;
   url?: string;
   previewImg?: string;
 }
@@ -128,6 +134,7 @@ function parseAboutPage(raw: string): AboutPage {
     location: requiredField(attributes, "location"),
     githubUrl: requiredField(attributes, "githubUrl"),
     scholarUrl: requiredField(attributes, "scholarUrl"),
+    linkedinUrl: attributes.linkedinUrl,
     content: body,
   };
 }
@@ -158,7 +165,7 @@ function parseProject(raw: string): ProjectDocument {
     order: Number(attributes.order ?? "999"),
     status: attributes.status,
     student: attributes.student,
-    supervisor: attributes.supervisor,
+    company: attributes.company,
     content: body,
   };
 }
@@ -179,6 +186,7 @@ function parsePaper(item: RecordItem): Paper {
     year: Number(requiredField(item, "year")),
     arxivUrl: item.arxiv,
     doiUrl: item.doi,
+    ieeeUrl: item.ieee,
     url: item.url,
     previewImg: item.preview,
   };
@@ -216,7 +224,12 @@ export const publicationsPage = (() => {
   return {
     title: requiredField(attributes, "title"),
     intro,
-    papers: sectionItems(sections, "Papers").map(parsePaper),
+    // Every `##` section becomes a publication group, in file order — add or
+    // rename a section in publications.md and it shows up without a code change.
+    groups: sections.map((section) => ({
+      heading: section.heading,
+      papers: section.items.map(parsePaper),
+    })),
   };
 })();
 
@@ -292,3 +305,13 @@ export const blogPosts: BlogPostDocument[] = Object.values(blogFiles)
 export const projects: ProjectDocument[] = Object.values(projectFiles)
   .map(parseProject)
   .sort((a, b) => a.order - b.order);
+
+/** Title and intro prose for the projects index; the cards come from `projects`. */
+export const projectsPage = (() => {
+  const { attributes, body } = parseFrontmatter(projectsPageRaw);
+
+  return {
+    title: requiredField(attributes, "title"),
+    intro: body.trim(),
+  };
+})();

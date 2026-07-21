@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, MapPin } from "lucide-react";
+import { ExternalLink, Github, Linkedin, MapPin } from "lucide-react";
 import Layout from "@/components/Layout";
 import MarkdownContent from "@/templates/MarkdownContent";
 
@@ -20,6 +20,7 @@ interface ProfilePageTemplateProps {
   location: string;
   githubUrl: string;
   scholarUrl: string;
+  linkedinUrl?: string;
   content: string;
 }
 
@@ -31,6 +32,7 @@ const ProfilePageTemplate = ({
   location,
   githubUrl,
   scholarUrl,
+  linkedinUrl,
   content,
 }: ProfilePageTemplateProps) => (
   <Layout>
@@ -57,6 +59,12 @@ const ProfilePageTemplate = ({
               <ExternalLink size={15} />
               Google Scholar
             </a>
+            {linkedinUrl && (
+              <a href={linkedinUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-primary hover:underline">
+                <Linkedin size={15} />
+                LinkedIn
+              </a>
+            )}
           </div>
         </motion.aside>
 

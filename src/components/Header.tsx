@@ -4,12 +4,12 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "About", path: "/" },
-  { label: "Blog", path: "/blog" },
   { label: "Publications", path: "/publications" },
   { label: "Projects", path: "/projects" },
   { label: "Coding", path: "/coding" },
   { label: "CV", path: "/cv" },
   { label: "Teaching", path: "/teaching" },
+  { label: "Blog", path: "/blog" },
   { label: "Art Gallery", path: "/art-gallery" },
 ];
 

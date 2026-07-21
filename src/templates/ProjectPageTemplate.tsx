@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Layout from "@/components/Layout";
+import InlineMarkdown from "@/templates/InlineMarkdown";
 import MarkdownContent from "@/templates/MarkdownContent";
 
 const fadeUp = {
@@ -17,7 +18,7 @@ interface ProjectPageTemplateProps {
   title: string;
   subtitle?: string;
   student?: string;
-  supervisor?: string;
+  company?: string;
   content: string;
 }
 
@@ -25,7 +26,7 @@ const ProjectPageTemplate = ({
   title,
   subtitle,
   student,
-  supervisor,
+  company,
   content,
 }: ProjectPageTemplateProps) => (
   <Layout>
@@ -62,7 +63,7 @@ const ProjectPageTemplate = ({
         </motion.p>
       )}
 
-      {(student || supervisor) && (
+      {(student || company) && (
         <motion.div
           initial="hidden"
           animate="visible"
@@ -76,10 +77,12 @@ const ProjectPageTemplate = ({
               <p className="mt-1 text-sm text-foreground/85">{student}</p>
             </div>
           )}
-          {supervisor && (
+          {company && (
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-primary">Supervisor</p>
-              <p className="mt-1 text-sm text-foreground/85">{supervisor}</p>
+              <p className="text-xs font-semibold uppercase tracking-wider text-primary">Supported by</p>
+              <p className="mt-1 text-sm text-foreground/85">
+                <InlineMarkdown content={company} />
+              </p>
             </div>
           )}
         </motion.div>

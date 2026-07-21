@@ -6,7 +6,7 @@ slug: 5_project
 img: /assets/img/drone_with_tree.png
 order: 3
 student: Andrea Boldrini
-supervisor: Gregorio Marchesini
+company: [A*STAR](https://www.a-star.edu.sg/), Singapore
 ---
 
 The use of unmanned aerial vehicles (UAVs) to perform physical interaction tasks is an effective and advanced solution that has been studied extensively in recent years. However, many factors affect performance and reliability, especially for high-pitch-angle maneuvers.
