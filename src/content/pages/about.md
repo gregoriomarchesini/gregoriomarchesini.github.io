@@ -27,6 +27,7 @@ Mostly guided by a strong passion for mathematics and its application in robotic
 :::videos
 - [Reactive redistribution of STL tasks under time-varying communication](https://youtu.be/qLjHKBQRmYw)
 - [Decomposition of STL formulas in multi-agent settings](https://youtu.be/joC_Xkk0ldY)
+- [Planning under Signal temporal Logic Constraints](https://youtu.be/mVjRDhXUrCo?si=syBfWFAa0JkvO3DU)
 :::
 
 ## Research Interests
